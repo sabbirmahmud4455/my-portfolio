@@ -14,13 +14,13 @@ const MainMenuNavList = () => {
 			<NavListItem 
 			targetUrl={'url'}
 			title={'Home'}
-			isActive={true}
+			isActive={false}
 			
 			/>
 			<NavListItem 
 			targetUrl={'url'}
 			title={'Home'}
-			isActive={true}
+			isActive={false}
 			
 			/>
 			<NavListItem 

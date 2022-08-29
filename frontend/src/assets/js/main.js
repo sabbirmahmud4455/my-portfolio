@@ -7,6 +7,7 @@
             imJs.methods();
         },
         d: function (e) {
+            // eslint-disable-next-line no-unused-expressions
             this._window = $(window),
             this._document = $(document),
             this._body = $('body'),
@@ -306,6 +307,7 @@
         },
 
         featherAtcivation: function () {
+            // eslint-disable-next-line no-undef
             feather.replace()
         },
 
@@ -415,6 +417,7 @@
         },
 
         awsActivation:function(e){
+            // eslint-disable-next-line no-undef
             AOS.init();
         },
 
@@ -436,4 +439,5 @@
     imJs.m();
 
 
+// eslint-disable-next-line no-undef
 })(jQuery, window)

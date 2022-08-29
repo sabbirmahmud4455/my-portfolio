@@ -2,6 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import './assets/css/vendor/bootstrap.min.css'
+import './assets/css/vendor/slick.css'
+import './assets/css/vendor/slick-theme.css'
+import './assets/css/vendor/aos.css'
+import './assets/css/plugins/feature.css'
 import './assets/css/style.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
