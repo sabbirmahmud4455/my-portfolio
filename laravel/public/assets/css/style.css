@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*---------------------------
- CSS Index  
+ CSS Index
 ****************************
 
 01. Variables
@@ -437,7 +437,7 @@ var {
 }
 
 /*---------------------------
-	List Style 
+	List Style
 ---------------------------*/
 ul,
 ol {
@@ -514,7 +514,7 @@ ol ul {
 }
 
 /*=========================
-    Section Separation 
+    Section Separation
 ==========================*/
 .slick-dotted.slick-slider {
   margin-bottom: 0;
@@ -6784,7 +6784,7 @@ input[type=submit]:hover {
 /*==============================
  *  Utilities
 =================================*/
-/* 
+/*
 font-family: 'Red Hat Display', sans-serif;
 */
 .clearfix:before,
@@ -6806,7 +6806,7 @@ font-family: 'Red Hat Display', sans-serif;
 }
 
 /*===============================
-    Background Color 
+    Background Color
 =================================*/
 .bg-color-primary {
   background: var(--color-primary);
@@ -6837,7 +6837,7 @@ font-family: 'Red Hat Display', sans-serif;
 }
 
 /*===========================
-Background Image 
+Background Image
 =============================*/
 .bg_image {
   background-repeat: no-repeat;
@@ -7411,7 +7411,7 @@ textarea:-ms-input-placeholder {
 }
 
 /*=============================
-	Overlay styles 
+	Overlay styles
 ==============================*/
 [data-overlay],
 [data-black-overlay],
@@ -7515,7 +7515,7 @@ textarea:-ms-input-placeholder {
 }
 
 /*------------------------------
-    Scroll Up 
+    Scroll Up
 --------------------------------*/
 #scrollUp {
   width: 70px;
@@ -7609,7 +7609,7 @@ textarea:-ms-input-placeholder {
 }
 
 /*--------------------
-    Contact Form 
+    Contact Form
 ----------------------*/
 .form-message {
   margin-bottom: 0;
@@ -7625,7 +7625,7 @@ textarea:-ms-input-placeholder {
 }
 
 /*---------------------------
-    Banner Area Styles 
+    Banner Area Styles
 -----------------------------*/
 .template-color-2 {
   background: #1D1E24;
@@ -10914,9 +10914,9 @@ Copyright (c) 2015 Daniel Eden
   opacity: 1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xclip 
+xclip
 
 -------------------------------- */
 .cd-headline.clip span {
@@ -10950,7 +10950,7 @@ xclip
 
 /* Header  */
 /*---------------------------
-    Header Area Styles 
+    Header Area Styles
 -----------------------------*/
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -11389,7 +11389,7 @@ body.template-color-1 {
 }
 
 /*--------------------------
-    Navigation Styles  
+    Navigation Styles
 ----------------------------*/
 .mainmenu-nav .primary-menu {
   display: flex;
@@ -11457,7 +11457,7 @@ body.template-color-1 {
 }
 
 /*----------------------------
-    Mobile Menu Styles  
+    Mobile Menu Styles
 ------------------------------*/
 .popup-mobile-menu {
   z-index: 9999;
@@ -11609,7 +11609,7 @@ body.template-color-1 {
 }
 
 /*----------------------
-    Right Demo  
+    Right Demo
 -----------------------*/
 .rn-right-demo {
   width: 40px;
@@ -11892,7 +11892,7 @@ body.template-color-1 {
 }
 
 /*-------------------
- Popup Tab  
+ Popup Tab
 -----------------------*/
 .popuptab-area {
   justify-content: center;
@@ -11945,7 +11945,7 @@ body.template-color-1 {
 }
 
 /*---------------------------------
-    Right Demo Light Version  
+    Right Demo Light Version
 ----------------------------------*/
 .demo-modal-area.white-version .wrapper .rn-modal-inner {
   background: var(--gradient-box-w);
@@ -12002,7 +12002,7 @@ body.template-color-1 {
 }
 
 /*---------------------------
-    Dropdown Menu  
+    Dropdown Menu
 ----------------------------*/
 .mainmenu-nav .primary-menu li {
   position: relative;
@@ -12109,7 +12109,7 @@ body.template-color-1 {
 
 /* Elements  */
 /*---------------------------
-    Header Area Styles 
+    Header Area Styles
 -----------------------------*/
 a.rn-btn,
 button.rn-btn {
@@ -12594,7 +12594,7 @@ figcaption {
 }
 
 /*---------------------------
-    Banner Area Styles 
+    Banner Area Styles
 -----------------------------*/
 .skill-share-inner-one .skill-share {
   flex-wrap: wrap;
@@ -13858,7 +13858,7 @@ figcaption {
 }
 
 /*---------------------------
-    Service Area Styles 
+    Service Area Styles
 -----------------------------*/
 .rn-service {
   text-align: left;
@@ -14295,7 +14295,7 @@ div#featured-project-carousel {
 }
 
 /*=====================
-    Skill Area 
+    Skill Area
 ========================*/
 @media only screen and (max-width: 479px) {
   .section-title.text-center span.subtitle {
@@ -14456,7 +14456,7 @@ div#featured-project-carousel {
     padding-left: 14px;
   }
 }
-.personal-experience-inner .experience-list .resume-single-list {
+.personal-experience-inner .experience-list .experience-single-list {
   position: relative;
   z-index: 2;
   margin-top: 50px;
@@ -14467,26 +14467,26 @@ div#featured-project-carousel {
   transition: var(--transition);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .personal-experience-inner .experience-list .resume-single-list {
+  .personal-experience-inner .experience-list .experience-single-list {
     padding: 30px 25px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .personal-experience-inner .experience-list .resume-single-list {
+  .personal-experience-inner .experience-list .experience-single-list {
     padding: 30px;
   }
 }
 @media only screen and (max-width: 575px) {
-  .personal-experience-inner .experience-list .resume-single-list {
+  .personal-experience-inner .experience-list .experience-single-list {
     margin-top: 30px;
   }
 }
 @media only screen and (max-width: 479px) {
-  .personal-experience-inner .experience-list .resume-single-list {
+  .personal-experience-inner .experience-list .experience-single-list {
     padding: 20px;
   }
 }
-.personal-experience-inner .experience-list .resume-single-list::before {
+.personal-experience-inner .experience-list .experience-single-list::before {
   content: "";
   position: absolute;
   transition: var(--transition);
@@ -14499,7 +14499,7 @@ div#featured-project-carousel {
   opacity: 0;
   z-index: -1;
 }
-.personal-experience-inner .experience-list .resume-single-list .inner::after {
+.personal-experience-inner .experience-list .experience-single-list .inner::after {
   position: absolute;
   content: "";
   width: 20px;
@@ -14513,16 +14513,16 @@ div#featured-project-carousel {
   transition: var(--transition);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .personal-experience-inner .experience-list .resume-single-list .inner::after {
+  .personal-experience-inner .experience-list .experience-single-list .inner::after {
     right: 106%;
   }
 }
 @media only screen and (max-width: 479px) {
-  .personal-experience-inner .experience-list .resume-single-list .inner::after {
+  .personal-experience-inner .experience-list .experience-single-list .inner::after {
     right: 102%;
   }
 }
-.personal-experience-inner .experience-list .resume-single-list .inner::before {
+.personal-experience-inner .experience-list .experience-single-list .inner::before {
   position: absolute;
   content: "";
   width: 28px;
@@ -14534,11 +14534,11 @@ div#featured-project-carousel {
   z-index: 0;
 }
 @media only screen and (max-width: 479px) {
-  .personal-experience-inner .experience-list .resume-single-list .inner::before {
+  .personal-experience-inner .experience-list .experience-single-list .inner::before {
     width: 15px;
   }
 }
-.personal-experience-inner .experience-list .resume-single-list .inner .heading {
+.personal-experience-inner .experience-list .experience-single-list .inner .heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14547,19 +14547,19 @@ div#featured-project-carousel {
   margin-bottom: 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .personal-experience-inner .experience-list .resume-single-list .inner .heading {
+  .personal-experience-inner .experience-list .experience-single-list .inner .heading {
     display: block;
   }
 }
 @media only screen and (max-width: 767px) {
-  .personal-experience-inner .experience-list .resume-single-list .inner .heading {
+  .personal-experience-inner .experience-list .experience-single-list .inner .heading {
     display: block;
   }
 }
-.personal-experience-inner .experience-list .resume-single-list .inner .heading .title {
+.personal-experience-inner .experience-list .experience-single-list .inner .heading .title {
   margin-bottom: 15px;
 }
-.personal-experience-inner .experience-list .resume-single-list .inner .heading .title h4 {
+.personal-experience-inner .experience-list .experience-single-list .inner .heading .title h4 {
   color: var(--color-lightn);
   font-family: var(--font-primary);
   font-size: 24px;
@@ -14569,20 +14569,20 @@ div#featured-project-carousel {
   transition: var(--transition);
 }
 @media only screen and (max-width: 479px) {
-  .personal-experience-inner .experience-list .resume-single-list .inner .heading .title h4 {
+  .personal-experience-inner .experience-list .experience-single-list .inner .heading .title h4 {
     font-size: 21px;
     line-height: 34px;
   }
 }
-.personal-experience-inner .experience-list .resume-single-list .inner .heading .title span {
+.personal-experience-inner .experience-list .experience-single-list .inner .heading .title span {
   color: #7c838e;
   display: block;
   font-size: 14px;
 }
-.personal-experience-inner .experience-list .resume-single-list .inner .heading .date-of-time {
+.personal-experience-inner .experience-list .experience-single-list .inner .heading .date-of-time {
   display: inline-block;
 }
-.personal-experience-inner .experience-list .resume-single-list .inner .heading .date-of-time span {
+.personal-experience-inner .experience-list .experience-single-list .inner .heading .date-of-time span {
   color: var(--color-primary);
   display: block;
   font-size: 14px;
@@ -14595,35 +14595,35 @@ div#featured-project-carousel {
   transition: var(--transition);
   font-weight: 500;
 }
-.personal-experience-inner .experience-list .resume-single-list .inner p {
+.personal-experience-inner .experience-list .experience-single-list .inner p {
   font-size: 18px;
   line-height: 28px;
   color: var(--color-body);
   transition: var(--transition);
 }
-.personal-experience-inner .experience-list .resume-single-list .inner.psudo-after-none::after {
+.personal-experience-inner .experience-list .experience-single-list .inner.psudo-after-none::after {
   display: none;
 }
-.personal-experience-inner .experience-list .resume-single-list .inner.psudo-after-none::before {
+.personal-experience-inner .experience-list .experience-single-list .inner.psudo-after-none::before {
   display: none;
 }
-.personal-experience-inner .experience-list .resume-single-list:hover {
+.personal-experience-inner .experience-list .experience-single-list:hover {
   background: #212427;
 }
-.personal-experience-inner .experience-list .resume-single-list:hover .inner .heading .title h4 {
+.personal-experience-inner .experience-list .experience-single-list:hover .inner .heading .title h4 {
   color: var(--color-white);
 }
-.personal-experience-inner .experience-list .resume-single-list:hover .inner .heading .date-of-time span {
+.personal-experience-inner .experience-list .experience-single-list:hover .inner .heading .date-of-time span {
   background: #1e2025;
   box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #222527;
 }
-.personal-experience-inner .experience-list .resume-single-list:hover .inner .description {
+.personal-experience-inner .experience-list .experience-single-list:hover .inner .description {
   color: var(--color-lightn);
 }
-.personal-experience-inner .experience-list .resume-single-list:hover .inner::after {
+.personal-experience-inner .experience-list .experience-single-list:hover .inner::after {
   background: var(--color-primary);
 }
-.personal-experience-inner .experience-list .resume-single-list:hover::before {
+.personal-experience-inner .experience-list .experience-single-list:hover::before {
   opacity: 1;
 }
 
@@ -14799,7 +14799,7 @@ div#featured-project-carousel {
 }
 
 /*=========================
-    Progress Bar Styles 
+    Progress Bar Styles
 ==========================*/
 .progress-charts {
   overflow: hidden;
@@ -14853,7 +14853,7 @@ div#featured-project-carousel {
 }
 
 /*---------------------------
-    Testimonial Area Styles 
+    Testimonial Area Styles
 -----------------------------*/
 .rn-testimonial {
   padding: 30px 15px;
@@ -15402,7 +15402,7 @@ div#featured-project-carousel {
 }
 
 /*------------------------------
-    Client Single Card 
+    Client Single Card
 --------------------------------*/
 .client-card {
   display: flex;
@@ -15460,11 +15460,13 @@ div#featured-project-carousel {
   opacity: 1;
 }
 .client-card .main-content .thumbnail {
+  min-width: 200px;
   height: 150px;
   align-items: center;
   display: flex;
   justify-content: center;
   padding: 30px;
+
 }
 .client-card .main-content .thumbnail a {
   display: block;
@@ -15695,7 +15697,7 @@ span.sr-only {
 }
 
 /*---------------------------
-    Pricing Area Styles 
+    Pricing Area Styles
 -----------------------------*/
 .navigation-wrapper {
   margin-left: 10px;
@@ -16258,7 +16260,7 @@ span.sr-only {
 }
 
 /*---------------------------
-    Contact Area Styles 
+    Contact Area Styles
 -----------------------------*/
 .contact-about-area {
   padding: 30px;
@@ -17147,7 +17149,7 @@ span.sr-only {
 }
 
 /*---------------------------
-    Contact Area Styles 
+    Contact Area Styles
 -----------------------------*/
 .footer-area h4 span {
   padding: 20px 23px;
@@ -17190,7 +17192,7 @@ span.sr-only {
 }
 
 /*-----------------------
-    Footer Style Two  
+    Footer Style Two
 --------------------------*/
 .footer-style-2 .copyright .description {
   color: var(--color-body);
@@ -17363,7 +17365,7 @@ span.sr-only {
 }
 
 /*---------------------------
-    Portfolio Area Styles 
+    Portfolio Area Styles
 -----------------------------*/
 .rn-portfolio,
 .rn-blog {
@@ -17608,7 +17610,7 @@ span.sr-only {
   padding: 35px 15px;
 }
 /*-----------------------------
-    Portfolio Style Two  
+    Portfolio Style Two
 -------------------------------*/
 .portfolio-style-two .carousel.slide {
   box-shadow: var(--shadow-1);
@@ -17975,7 +17977,7 @@ span.sr-only {
 }
 
 /*----------------------
-Rn Slick Dots Style  
+Rn Slick Dots Style
 -----------------------*/
 .slick-initialized .slick-slide {
   margin-bottom: 0 !important;
@@ -18407,39 +18409,39 @@ body.white-version .rn-btn-ulderline {
   background: #dce1e4;
   opacity: 0.9;
 }
-.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list {
+.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .experience-single-list {
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
 }
-.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list::before {
+.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .experience-single-list::before {
   background: var(--gradient-red-hover);
 }
-.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list .heading {
+.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .experience-single-list .heading {
   border-bottom: 1px solid #e3e9ed;
 }
-.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list .heading .title h4 {
+.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .experience-single-list .heading .title h4 {
   color: var(--color-body-white);
 }
-.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list .heading .date-of-time span {
+.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .experience-single-list .heading .date-of-time span {
   background: var(--color-white);
   box-shadow: var(--shadow-white-3);
   color: var(--color-primary);
 }
-.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list:hover .heading {
+.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .experience-single-list:hover .heading {
   border-bottom: 1px solid #ce6e6e;
 }
-.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list:hover .heading .title h4 {
+.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .experience-single-list:hover .heading .title h4 {
   color: var(--color-white);
 }
-.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list:hover .heading .title span {
+.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .experience-single-list:hover .heading .title span {
   color: var(--color-white);
 }
-.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list:hover .heading .date-of-time span {
+.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .experience-single-list:hover .heading .date-of-time span {
   background: var(--color-primary);
   box-shadow: none;
   color: var(--color-white);
 }
-.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list:hover p.description {
+.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .experience-single-list:hover p.description {
   color: var(--color-white);
 }
 .white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .content .maintitle {
@@ -19009,90 +19011,90 @@ body.white-version .rn-btn-ulderline {
 .white-version .backto-top > div:hover svg {
   color: var(--color-white);
 }
-.white-version .rn-resume-area .rn-nav-list {
+.white-version .rn-experience-area .rn-nav-list {
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
 }
-.white-version .rn-resume-area .rn-nav-list .nav-item .nav-link {
+.white-version .rn-experience-area .rn-nav-list .nav-item .nav-link {
   color: var(--color-heading-wv);
 }
-.white-version .rn-resume-area .rn-nav-list .nav-item .nav-link.active {
+.white-version .rn-experience-area .rn-nav-list .nav-item .nav-link.active {
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
   color: var(--color-primary);
 }
-.white-version .rn-resume-area .rn-nav-list .nav-item .nav-link:hover {
+.white-version .rn-experience-area .rn-nav-list .nav-item .nav-link:hover {
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
   color: var(--color-primary);
 }
-.white-version .rn-resume-area .personal-experience-inner .content .maintitle {
+.white-version .rn-experience-area .personal-experience-inner .content .maintitle {
   color: var(--color-heading-wv);
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list {
+.white-version .rn-experience-area .personal-experience-inner .experience-list {
   border-left: 5px solid #d9dee2;
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list {
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list .inner::before {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list .inner::before {
   background: #d9dee2;
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list .inner::after {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list .inner::after {
   border: 5px solid #d9dee2;
   background: #ecf0f3;
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list .inner p {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list .inner p {
   color: var(--color-body-white);
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list::before {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list::before {
   background: var(--gradient-red-hover);
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list .heading {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list .heading {
   border-bottom: 1px solid #e3e9ed;
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list .heading .title h4 {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list .heading .title h4 {
   color: var(--color-heading-wv);
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list .heading .title span {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list .heading .title span {
   color: var(--color-body-white);
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list .heading .date-of-time span {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list .heading .date-of-time span {
   background: var(--color-white);
   box-shadow: var(--shadow-white-3);
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .heading {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list:hover .heading {
   border-bottom: 1px solid rgb(206, 110, 110);
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .heading .title h4 {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list:hover .heading .title h4 {
   color: var(--color-white);
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .heading .title span {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list:hover .heading .title span {
   color: var(--color-white);
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .heading .date-of-time span {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list:hover .heading .date-of-time span {
   box-shadow: none;
   background: #fe024e;
   color: var(--color-white);
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .inner::after {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list:hover .inner::after {
   background: var(--color-primary);
 }
-.white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .inner p {
+.white-version .rn-experience-area .personal-experience-inner .experience-list .experience-single-list:hover .inner p {
   color: var(--color-white);
 }
-.white-version .rn-resume-area .progress-charts .progress {
+.white-version .rn-experience-area .progress-charts .progress {
   background: #dce1e4;
   box-shadow: none;
 }
-.white-version .rn-resume-area .progress-charts .progress .progress-bar {
+.white-version .rn-experience-area .progress-charts .progress .progress-bar {
   background: linear-gradient(145deg, #fff 0%, var(--color-primary) 100%);
 }
-.white-version .rn-resume-area .progress-charts .progress .progress-bar span.percent-label {
+.white-version .rn-experience-area .progress-charts .progress .progress-bar span.percent-label {
   color: var(--color-body-white);
 }
-.white-version .rn-resume-area .progress-charts h6.heading {
+.white-version .rn-experience-area .progress-charts h6.heading {
   color: var(--color-heading-wv);
   font-weight: 500;
 }

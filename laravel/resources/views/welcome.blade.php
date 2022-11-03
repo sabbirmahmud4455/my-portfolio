@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from rainbowit.net/html/inbio/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Aug 2022 06:45:17 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -32,7 +30,7 @@
             <div class="col-lg-2 col-6">
                 <div class="header-left">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="#home">
                             <img src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
                         </a>
                     </div>
@@ -48,8 +46,8 @@
                             <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
                             <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-                            <li class="nav-item current"><a class="nav-link" href="http://localhost:3000/#clients">Clients</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#experience">EXPERIENCE</a></li>
+                            <li class="nav-item current"><a class="nav-link" href="http://localhost:3000/#Dev-Stack">Dev-Stack</a></li>
                             <li class="nav-item"><a class="nav-link" href="#contacts">Contact</a></li>
                         </ul>
                         <!-- End Mainmanu Nav -->
@@ -79,7 +77,7 @@
         <div class="inner">
             <div class="menu-top">
                 <div class="menu-header">
-                    <a class="logo" href="index.html">
+                    <a class="logo" href="#home">
                         <img src="{{ asset('assets/images/logo/logos-circle.png') }}" alt="Personal Portfolio">
                     </a>
                     <div class="close-button">
@@ -93,17 +91,18 @@
                     <li class="nav-item current"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link smoth-animation" href="#features">Features</a></li>
                     <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#clients">Clients</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#experience">EXPERIENCE</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#Dev-Stack">Dev-Stack</a></li>
                     <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
                 </ul>
                 <!-- social sharea area -->
                 <div class="social-share-style-1 mt--40">
                     <span class="title">find with me</span>
                     <ul class="social-share d-flex liststyle">
-                        <li class="facebook"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
-                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                                </svg></a>
+                        <li class="facebook">
+                            <a href="#">
+                                <img src="{{ asset('assets/icon/icons8-facebook-48.png') }}" alt="">
+                            </a>
                         </li>
                         <li class="instagram"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
                                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
@@ -136,30 +135,22 @@
                 <div class="container">
                     <div class="row row--30 align-items-center">
                         <div class="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
-                            <div class="content">
+                            <div class="content justify-content-center">
                                 <div class="inner">
                                     <span class="subtitle">Welcome to my world</span>
-                                    <h1 class="title">Hi, I’m <span>Jone Lee</span><br>
+                                    <h1 class="title">Hi, I’m <span>Sabbir Mahmud</span><br>
                                         <span class="header-caption" id="page-top">
                                             <!-- type headline start-->
                                             <span class="cd-headline clip is-full-width">
-                                                <span>a </span>
+                                                <span>a full-stack web developer.</span>
                                         <!-- ROTATING TEXT -->
-                                        <span class="cd-words-wrapper">
-                                                    <b class="is-visible">Developer.</b>
-                                                    <b class="is-hidden">Professional Coder.</b>
-                                                    <b class="is-hidden">Developer.</b>
-                                                </span>
-                                        </span>
+
                                         <!-- type headline end -->
                                         </span>
                                     </h1>
 
                                     <div>
-                                        <p class="description">I use animation as a third dimension by which to simplify
-                                            experiences and kuiding thro each and every interaction. I’m not adding
-                                            motion
-                                            just to spruce things up, but doing it in ways that.</p>
+                                        <p class="description">I'm a full-stack web developer based in Dhaka, Bangladesh specializing in building (and occasionally designing) exceptional, high-quality websites and applications.</p>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -167,12 +158,22 @@
                                         <div class="social-share-inner-left">
                                             <span class="title">find with me</span>
                                             <ul class="social-share d-flex liststyle">
-                                                <li class="facebook"><a href="#"><i data-feather="facebook"></i></a>
+                                                <li class="">
+                                                    <a href="https://github.com/sabbirmahmud4455" target="_blank">
+                                                        <img src="{{ asset('assets/icon/icons8-github-36.png') }}" alt="">
+                                                    </a>
                                                 </li>
-                                                <li class="instagram"><a href="#"><i data-feather="instagram"></i></a>
+                                                <li class="">
+                                                    <a href="https://www.linkedin.com/in/sabbir-mahmud/" target="_blank">
+                                                        <img src="{{ asset('assets/icon/icons8-linkedin-36.png') }}" alt="">
+                                                    </a>
                                                 </li>
-                                                <li class="linkedin"><a href="#"><i data-feather="linkedin"></i></a>
+                                                <li class="">
+                                                    <a href="https://www.facebook.com/sabbir.hossien.7" target="_blank">
+                                                        <img src="{{ asset('assets/icon/icons8-facebook-36.png') }}" alt="">
+                                                    </a>
                                                 </li>
+
                                             </ul>
                                         </div>
                                     </div>
@@ -180,9 +181,27 @@
                                         <div class="skill-share-inner">
                                             <span class="title">best skill on</span>
                                             <ul class="skill-share d-flex liststyle">
-                                                <li><img src="{{ asset('assets/images/icons/icons-01.png') }}" alt="Icons Images"></li>
-                                                <li><img src="{{ asset('assets/images/icons/icons-02.png') }}" alt="Icons Images"></li>
-                                                <li><img src="{{ asset('assets/images/icons/icons-03.png') }}" alt="Icons Images"></li>
+                                                <li class="">
+                                                    <a href="https://laravel.com" target="_blank">
+                                                        <img src="{{ asset('assets/icon/icons8-laravel-36.png') }}" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="https://www.php.net" target="_blank">
+                                                        <img src="{{ asset('assets/icon/icons8-php-logo-36.png') }}" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="https://www.javascript.com" target="_blank">
+                                                        <img src="{{ asset('assets/icon/icons8-javascript-36.png') }}" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="https://www.mysql.com" target="_blank">
+                                                        <img src="{{ asset('assets/icon/icons8-my-sql-36.png') }}" alt="">
+                                                    </a>
+                                                </li>
+
                                             </ul>
                                         </div>
                                     </div>
@@ -190,13 +209,13 @@
                             </div>
                         </div>
 
-                        <div class="order-1 order-lg-2 col-lg-5">
+                        {{-- <div class="order-1 order-lg-2 col-lg-5">
                             <div class="thumbnail">
                                 <div class="inner">
                                     <img src="{{ asset('assets/images/slider/banner-01.png') }}" alt="Personal Portfolio Images">
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -208,25 +227,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="section-title text-left" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true">
+                        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true">
                             <span class="subtitle">Features</span>
                             <h2 class="title">What I Do</h2>
                         </div>
                     </div>
                 </div>
+
                 <div class="row row--25 mt_md--10 mt_sm--10">
 
                     <!-- Start Single Service -->
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
                         <div class="rn-service">
                             <div class="inner">
-                                <div class="icon">
-                                    <i data-feather="menu"></i>
-                                </div>
                                 <div class="content">
-                                    <h4 class="title"><a href="#">Business Stratagy</a></h4>
-                                    <p class="description">I throw myself down among the tall grass by the stream as I
-                                        lie close to the earth.</p>
+                                    <h4 class="title"><a href="#">Requirements Analysis</a></h4>
+                                    <p class="description">To develope correct on right ways analysis system requirements</p>
                                     <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -238,13 +254,9 @@
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
                         <div class="rn-service">
                             <div class="inner">
-                                <div class="icon">
-                                    <i data-feather="book-open"></i>
-                                </div>
                                 <div class="content">
-                                    <h4 class="title"><a href="#">App Development</a></h4>
-                                    <p class="description"> It uses a dictionary of over 200 Latin words, combined with
-                                        a handful of model sentence.</p>
+                                    <h4 class="title"><a href="#">Software Development</a></h4>
+                                    <p class="description">Write clean code for clean software and must be reusable and scalable</p>
                                     <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -256,13 +268,9 @@
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
                         <div class="rn-service">
                             <div class="inner">
-                                <div class="icon">
-                                    <i data-feather="tv"></i>
-                                </div>
                                 <div class="content">
-                                    <h4 class="title"><a href="#">App Development</a></h4>
-                                    <p class="description">I throw myself down among the tall grass by the stream as I
-                                        lie close to the earth.</p>
+                                    <h4 class="title"><a href="#">Web App Development</a></h4>
+                                    <p class="description">Solving thousand of peaple problem with smooth service</p>
                                     <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -274,14 +282,9 @@
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
                         <div class="rn-service">
                             <div class="inner">
-                                <div class="icon">
-                                    <i data-feather="twitch"></i>
-                                </div>
                                 <div class="content">
-                                    <h4 class="title"><a href="#">Mobile App</a></h4>
-                                    <p class="description">There are many variations of passages of Lorem Ipsum
-                                        available, but the majority.
-                                    </p>
+                                    <h4 class="title"><a href="#">Database Design</a></h4>
+                                    <p class="description">Build and Design RDMS Database Mostly used SQL</p>
                                     <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -293,9 +296,6 @@
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
                         <div class="rn-service">
                             <div class="inner">
-                                <div class="icon">
-                                    <i data-feather="wifi"></i>
-                                </div>
                                 <div class="content">
                                     <h4 class="title"><a href="#">CEO Marketing</a></h4>
                                     <p class="description">always free from repetition,
@@ -311,9 +311,6 @@
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
                         <div class="rn-service">
                             <div class="inner">
-                                <div class="icon">
-                                    <i data-feather="slack"></i>
-                                </div>
                                 <div class="content">
                                     <h4 class="title"><a href="#">Personal Portfolio April</a></h4>
                                     <p class="description"> It uses a dictionary of over 200 Latin words, combined with
@@ -509,853 +506,180 @@
             </div>
         </div>
         <!-- End portfolio Area -->
-        <!-- Start Resume Area -->
-        <div class="rn-resume-area rn-section-gap section-separator" id="resume">
+        <!-- Start experience Area -->
+        <div class="rn-experience-area rn-section-gap section-separator" id="experience">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title text-center">
                             <span class="subtitle">7+ Years of Experience</span>
-                            <h2 class="title">My Resume</h2>
+                            <h2 class="title">Where I've Worked</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row mt--45">
-                    <div class="col-lg-12">
-                        <ul class="rn-nav-list nav nav-tabs" id="myTabs" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="education-tab" data-bs-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="true">education</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="professional-tab" data-bs-toggle="tab" href="#professional" role="tab" aria-controls="professional" aria-selected="false">professional
-                                    Skills</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="experience-tab" data-bs-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="false">experience</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="interview-tab" data-bs-toggle="tab" href="#interview" role="tab" aria-controls="interview" aria-selected="false">interview</a>
-                            </li>
-                        </ul>
+                    <div class="personal-experience-inner mt--40">
+                        <div class="row">
+                            <!-- Start Skill List Area  -->
+                            <div class="col-lg-6 col-md-12 col-12">
+                                <div class="content">
+                                    <span class="subtitle">2007 - 2010</span>
+                                    <h4 class="maintitle">Company Experience</h4>
+                                    <div class="experience-list">
 
-                        <!-- Start Tab Content Wrapper  -->
-                        <div class="rn-nav-content tab-content" id="myTabContents">
-                            <!-- Start Single Tab  -->
-                            <div class="tab-pane show active fade single-tab-area" id="education" role="tabpanel" aria-labelledby="education-tab">
-                                <div class="personal-experience-inner mt--40">
-                                    <div class="row">
-                                        <!-- Start Skill List Area  -->
-                                        <div class="col-lg-6 col-md-12 col-12">
-                                            <div class="content">
-                                                <span class="subtitle">2007 - 2010</span>
-                                                <h4 class="maintitle">Education Quality</h4>
-                                                <div class="experience-list">
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Personal Portfolio April Fools</h4>
-                                                                    <span>University of DVI (1997 - 2001)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.30/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">The education should be very
-                                                                interactual. Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
+                                        <!-- Start Single List  -->
+                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="experience-single-list">
+                                            <div class="inner">
+                                                <div class="heading">
+                                                    <div class="title">
+                                                        <h4>Personal Portfolio April Fools</h4>
+                                                        <span>University of DVI (1997 - 2001)</span>
                                                     </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4> Examples Of Personal Portfolio</h4>
-                                                                    <span>College of Studies (2000 - 2002)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.50/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Maecenas finibus nec sem ut
-                                                                imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
+                                                    <div class="date-of-time">
+                                                        <span>4.30/5</span>
                                                     </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Tips For Personal Portfolio</h4>
-                                                                    <span>University of Studies (1997 - 2001)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.80/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description"> If you are going to use a passage.
-                                                                Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
                                                 </div>
+                                                <p class="description">The education should be very
+                                                    interactual. Ut tincidunt est ac dolor aliquam sodales.
+                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                    mauris hendrerit ante.</p>
                                             </div>
                                         </div>
-                                        <!-- End Skill List Area  -->
+                                        <!-- End Single List  -->
 
-                                        <!-- Start Skill List Area 2nd  -->
-                                        <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
-                                            <div class="content">
-                                                <span class="subtitle">2007 - 2010</span>
-                                                <h4 class="maintitle">Job Experience</h4>
-                                                <div class="experience-list">
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Diploma in Web Development</h4>
-                                                                    <span>BSE In CSE (2004 - 2008)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.70/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Contrary to popular belief. Ut
-                                                                tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
+                                        <!-- Start Single List  -->
+                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="experience-single-list">
+                                            <div class="inner">
+                                                <div class="heading">
+                                                    <div class="title">
+                                                        <h4> Examples Of Personal Portfolio</h4>
+                                                        <span>College of Studies (2000 - 2002)</span>
                                                     </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>The Personal Portfolio Mystery</h4>
-                                                                    <span>Job at Rainbow-Themes (2008 - 2016)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.95/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Generate Lorem Ipsum which looks. Ut
-                                                                tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
+                                                    <div class="date-of-time">
+                                                        <span>4.50/5</span>
                                                     </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Diploma in Computer Science</h4>
-                                                                    <span>Works at Plugin Development (2016 -
-                                                                2020)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>5.00/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Maecenas finibus nec sem ut
-                                                                imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
                                                 </div>
+                                                <p class="description">Maecenas finibus nec sem ut
+                                                    imperdiet. Ut tincidunt est ac dolor aliquam sodales.
+                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                    mauris hendrerit ante.</p>
                                             </div>
                                         </div>
-                                        <!-- End Skill List Area  -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Tab  -->
+                                        <!-- End Single List  -->
 
-                            <!-- Start Single Tab  -->
-                            <div class="tab-pane fade " id="professional" role="tabpanel" aria-labelledby="professional-tab">
-                                <div class="personal-experience-inner mt--40">
-                                    <div class="row row--40">
-
-                                        <!-- Start Single Progressbar  -->
-                                        <div class="col-lg-6 col-md-6 col-12">
-                                            <div class="progress-wrapper">
-                                                <div class="content">
-                                                    <span class="subtitle">Features</span>
-                                                    <h4 class="maintitle">Design Skill</h4>
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">PHOTOSHOT</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">100%</span></div>
-                                                        </div>
+                                        <!-- Start Single List  -->
+                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true" class="experience-single-list">
+                                            <div class="inner">
+                                                <div class="heading">
+                                                    <div class="title">
+                                                        <h4>Tips For Personal Portfolio</h4>
+                                                        <span>University of Studies (1997 - 2001)</span>
                                                     </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">FIGMA</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 95%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">95%</span></div>
-                                                        </div>
+                                                    <div class="date-of-time">
+                                                        <span>4.80/5</span>
                                                     </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">ADOBE XD</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 60%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">60%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">ADOBE ILLUSTRATOR</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".6s" role="progressbar" style="width: 70%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">70%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">DESIGN</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">90%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
                                                 </div>
+                                                <p class="description"> If you are going to use a passage.
+                                                    Ut tincidunt est ac dolor aliquam sodales.
+                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                    mauris hendrerit ante.</p>
                                             </div>
                                         </div>
-                                        <!-- End Single Progressbar  -->
-
-                                        <!-- Start Single Progressbar  -->
-                                        <div class="col-lg-6 col-md-6 col-12 mt_sm--60">
-                                            <div class="progress-wrapper">
-                                                <div class="content">
-                                                    <span class="subtitle">Features</span>
-                                                    <h4 class="maintitle">Development Skill</h4>
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">HTML</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">85%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">CSS</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">80%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">JAVASCRIPT</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">90%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">SOFTWARE</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".6s" role="progressbar" style="width: 75%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">75%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">PLUGIN</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 70%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">70%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Single Progressbar  -->
+                                        <!-- End Single List  -->
 
                                     </div>
                                 </div>
                             </div>
-                            <!-- End Single Tab  -->
+                            <!-- End Skill List Area  -->
 
-                            <!-- Start Single Tab  -->
-                            <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
-                                <div class="personal-experience-inner mt--40">
-                                    <div class="row">
-                                        <!-- Start Skill List Area  -->
-                                        <div class="col-lg-6 col-md-12 col-12">
-                                            <div class="content">
-                                                <span class="subtitle">2007 - 2010</span>
-                                                <h4 class="maintitle">Education Quality</h4>
-                                                <div class="experience-list">
+                            <!-- Start Skill List Area 2nd  -->
+                            <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
+                                <div class="content">
+                                    <span class="subtitle">2007 - 2010</span>
+                                    <h4 class="maintitle">Job Experience</h4>
+                                    <div class="experience-list">
 
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Personal Portfolio April Fools</h4>
-                                                                    <span>University of DVI (1997 - 2001)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.30/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">The education should be very
-                                                                interactual. Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
+                                        <!-- Start Single List  -->
+                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="experience-single-list">
+                                            <div class="inner">
+                                                <div class="heading">
+                                                    <div class="title">
+                                                        <h4>Diploma in Web Development</h4>
+                                                        <span>BSE In CSE (2004 - 2008)</span>
                                                     </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4> Examples Of Personal Portfolio</h4>
-                                                                    <span>College of Studies (2000 - 2002)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.50/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Maecenas finibus nec sem ut
-                                                                imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
+                                                    <div class="date-of-time">
+                                                        <span>4.70/5</span>
                                                     </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Tips For Personal Portfolio</h4>
-                                                                    <span>University of Studies (1997 - 2001)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.80/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description"> If you are going to use a passage.
-                                                                Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
                                                 </div>
+                                                <p class="description">Contrary to popular belief. Ut
+                                                    tincidunt est ac dolor aliquam sodales.
+                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                    mauris hendrerit ante.</p>
                                             </div>
                                         </div>
-                                        <!-- End Skill List Area  -->
+                                        <!-- End Single List  -->
 
-                                        <!-- Start Skill List Area 2nd  -->
-                                        <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
-                                            <div class="content">
-                                                <span class="subtitle">2007 - 2010</span>
-                                                <h4 class="maintitle">Job Experience</h4>
-                                                <div class="experience-list">
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Diploma in Web Development</h4>
-                                                                    <span>BSE In CSE (2004 - 2008)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.70/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Contrary to popular belief. Ut
-                                                                tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
+                                        <!-- Start Single List  -->
+                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true" class="experience-single-list">
+                                            <div class="inner">
+                                                <div class="heading">
+                                                    <div class="title">
+                                                        <h4>The Personal Portfolio Mystery</h4>
+                                                        <span>Job at Rainbow-Themes (2008 - 2016)</span>
                                                     </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>The Personal Portfolio Mystery</h4>
-                                                                    <span>Job at Rainbow-Themes (2008 - 2016)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.95/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Generate Lorem Ipsum which looks. Ut
-                                                                tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
+                                                    <div class="date-of-time">
+                                                        <span>4.95/5</span>
                                                     </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Diploma in Computer Science</h4>
-                                                                    <span>Works at Plugin Development (2016 -
-                                                                2020)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>5.00/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Maecenas finibus nec sem ut
-                                                                imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
                                                 </div>
+                                                <p class="description">Generate Lorem Ipsum which looks. Ut
+                                                    tincidunt est ac dolor aliquam sodales.
+                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                    mauris hendrerit ante.</p>
                                             </div>
                                         </div>
-                                        <!-- End Skill List Area  -->
+                                        <!-- End Single List  -->
+
+                                        <!-- Start Single List  -->
+                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="900" data-aos-once="true" class="experience-single-list">
+                                            <div class="inner">
+                                                <div class="heading">
+                                                    <div class="title">
+                                                        <h4>Diploma in Computer Science</h4>
+                                                        <span>Works at Plugin Development (2016 -
+                                                    2020)</span>
+                                                    </div>
+                                                    <div class="date-of-time">
+                                                        <span>5.00/5</span>
+                                                    </div>
+                                                </div>
+                                                <p class="description">Maecenas finibus nec sem ut
+                                                    imperdiet. Ut tincidunt est ac dolor aliquam sodales.
+                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
+                                                    mauris hendrerit ante.</p>
+                                            </div>
+                                        </div>
+                                        <!-- End Single List  -->
+
                                     </div>
                                 </div>
                             </div>
-                            <!-- End Single Tab  -->
-
-                            <!-- Start Single Tab  -->
-                            <div class="tab-pane fade" id="interview" role="tabpanel" aria-labelledby="interview-tab">
-                                <div class="personal-experience-inner mt--40">
-                                    <div class="row">
-                                        <!-- Start Skill List Area  -->
-                                        <div class="col-lg-6 col-md-12 col-12">
-                                            <div class="content">
-                                                <span class="subtitle">2007 - 2010</span>
-                                                <h4 class="maintitle">Company Experience</h4>
-                                                <div class="experience-list">
-
-                                                    <!-- Start Single List  -->
-                                                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Personal Portfolio April Fools</h4>
-                                                                    <span>University of DVI (1997 - 2001)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.30/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">The education should be very
-                                                                interactual. Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4> Examples Of Personal Portfolio</h4>
-                                                                    <span>College of Studies (2000 - 2002)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.50/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Maecenas finibus nec sem ut
-                                                                imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true" class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Tips For Personal Portfolio</h4>
-                                                                    <span>University of Studies (1997 - 2001)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.80/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description"> If you are going to use a passage.
-                                                                Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Skill List Area  -->
-
-                                        <!-- Start Skill List Area 2nd  -->
-                                        <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
-                                            <div class="content">
-                                                <span class="subtitle">2007 - 2010</span>
-                                                <h4 class="maintitle">Job Experience</h4>
-                                                <div class="experience-list">
-
-                                                    <!-- Start Single List  -->
-                                                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Diploma in Web Development</h4>
-                                                                    <span>BSE In CSE (2004 - 2008)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.70/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Contrary to popular belief. Ut
-                                                                tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true" class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>The Personal Portfolio Mystery</h4>
-                                                                    <span>Job at Rainbow-Themes (2008 - 2016)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.95/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Generate Lorem Ipsum which looks. Ut
-                                                                tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="900" data-aos-once="true" class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Diploma in Computer Science</h4>
-                                                                    <span>Works at Plugin Development (2016 -
-                                                                2020)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>5.00/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Maecenas finibus nec sem ut
-                                                                imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Skill List Area  -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Tab  -->
+                            <!-- End Skill List Area  -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Resume Area -->
-        <!-- Start Testimonia Area  -->
-        <div class="rn-testimonial-area rn-section-gap section-separator" id="testimonial">
+        <!-- End experience Area -->
+
+        <!-- Start Client Area -->
+        <div class="rn-client-area rn-section-gap section-separator" id="Dev-Stack">
             <div class="container">
+
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title text-center">
-                            <span class="subtitle">What Clients Say</span>
-                            <h2 class="title">Testimonial</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="testimonial-activation testimonial-pb mb--30">
-                            <!-- Start Single testiminail -->
-                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
-                                <div class="inner">
-                                    <div class="card-info">
-                                        <div class="card-thumbnail">
-                                            <img src="{{ asset('assets/images/testimonial/final-home--1st.png') }}" alt="Testimonial-image">
-                                        </div>
-                                        <div class="card-content">
-                                            <span class="subtitle mt--10">Rainbow-Themes</span>
-                                            <h3 class="title">Nevine Acotanza</h3>
-                                            <span class="designation">Chief Operating Officer</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-description">
-                                        <div class="title-area">
-                                            <div class="title-info">
-                                                <h3 class="title">Android App Development</h3>
-                                                <span class="date">via Upwork - Mar 4, 2015 - Aug 30, 2021</span>
-                                            </div>
-                                            <div class="rating">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                            </div>
-                                        </div>
-                                        <div class="seperator"></div>
-                                        <p class="discription">
-                                            Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
-                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
-                                            .
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single testiminail -->
-                            <!-- Start Single testiminail -->
-                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
-                                <div class="inner">
-                                    <div class="card-info">
-                                        <div class="card-thumbnail">
-                                            <img src="{{ asset('assets/images/testimonial/final-home--2nd.png') }}" alt="Testimonial-image">
-                                        </div>
-                                        <div class="card-content">
-                                            <span class="subtitle mt--10">Bound - Trolola</span>
-                                            <h3 class="title">Jone Duone Joe</h3>
-                                            <span class="designation">Operating Officer</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-description">
-                                        <div class="title-area">
-                                            <div class="title-info">
-                                                <h3 class="title">Web App Development</h3>
-                                                <span class="date">Upwork - Mar 4, 2016 - Aug 30, 2021</span>
-                                            </div>
-                                            <div class="rating">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                            </div>
-                                        </div>
-                                        <div class="seperator"></div>
-                                        <p class="discription">
-                                            Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
-                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
-                                            .
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single testiminail -->
-                            <!-- Start Single testiminail -->
-                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
-                                <div class="inner">
-                                    <div class="card-info">
-                                        <div class="card-thumbnail">
-                                            <img src="{{ asset('assets/images/testimonial/final-home--3rd.png') }}" alt="Testimonial-image">
-                                        </div>
-                                        <div class="card-content">
-                                            <span class="subtitle mt--10">Glassfisom</span>
-                                            <h3 class="title">Nevine Dhawan</h3>
-                                            <span class="designation">CEO Of Officer</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-description">
-                                        <div class="title-area">
-                                            <div class="title-info">
-                                                <h3 class="title">Android App Design</h3>
-                                                <span class="date">Fiver - Mar 4, 2015 - Aug 30, 2021</span>
-                                            </div>
-                                            <div class="rating">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                            </div>
-                                        </div>
-                                        <div class="seperator"></div>
-                                        <p class="discription">
-                                            No more question for design. Ut tincidunt est ac dolor aliquam
-                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
-                                            .
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single testiminail -->
-
-                            <!-- Start Single testiminail -->
-                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
-                                <div class="inner">
-                                    <div class="card-info">
-                                        <div class="card-thumbnail">
-                                            <img src="{{ asset('assets/images/testimonial/final-home--4th.png') }}" alt="Testimonial-image">
-                                        </div>
-                                        <div class="card-content">
-                                            <span class="subtitle mt--10">NCD - Design</span>
-                                            <h3 class="title">Mevine Thoda</h3>
-                                            <span class="designation">Marketing Officer</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-description">
-                                        <div class="title-area">
-                                            <div class="title-info">
-                                                <h3 class="title">CEO - Marketing</h3>
-                                                <span class="date">Thoda Department - Mar 4, 2018 - Aug 30, 2021</span>
-                                            </div>
-                                            <div class="rating">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                            </div>
-                                        </div>
-                                        <div class="seperator"></div>
-                                        <p class="discription">
-                                            Marcent Of Vanice and treatment. Ut tincidunt est ac dolor aliquam
-                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
-                                            .
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single testiminail -->
-
-                            <!-- Start Single testiminail -->
-                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
-                                <div class="inner">
-                                    <div class="card-info">
-                                        <div class="card-thumbnail">
-                                            <img src="{{ asset('assets/images/testimonial/final-home--5th.png') }}" alt="Testimonial-image">
-                                        </div>
-                                        <div class="card-content">
-                                            <span class="subtitle mt--10">Default name</span>
-                                            <h3 class="title">Davei Luace</h3>
-                                            <span class="designation">Chief Operating Manager</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-description">
-                                        <div class="title-area">
-                                            <div class="title-info">
-                                                <h3 class="title">Android App Development</h3>
-                                                <span class="date">via Upwork - Mar 4, 2015 - Aug 30, 2021</span>
-                                            </div>
-                                            <div class="rating">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                            </div>
-                                        </div>
-                                        <div class="seperator"></div>
-                                        <p class="discription">
-                                            When managment is so important. Ut tincidunt est ac dolor aliquam
-                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
-                                            .
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single testiminail -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Testimonia Area  -->
-        <!-- Start Client Area -->
-        <div class="rn-client-area rn-section-gap section-separator" id="clients">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title">
-                            <span class="subtitle">Popular Clients</span>
-                            <h2 class="title">Awesome Clients</h2>
+                            <span class="subtitle">LOOK AT MY</span>
+                            <h2 class="title">Dev Stack</h2>
                         </div>
                     </div>
                 </div>
@@ -1363,34 +687,33 @@
                 <div class="row row--25 mt--50 mt_md--40 mt_sm--40">
                     <div class="col-lg-4">
                         <div class="d-flex flex-wrap align-content-start h-100">
-                            <div class="position-sticky clients-wrapper sticky-top rbt-sticky-top-adjust">
+                            <div class="position-sticky Dev-Stack-wrapper sticky-top rbt-sticky-top-adjust">
                                 <ul class="nav tab-navigation-button flex-column nav-pills me-3" id="v-pills-tab" role="tablist">
 
                                     <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-home-tab" data-bs-toggle="tab" href="#v-pills-Javascript" role="tab" aria-selected="true">JavaScript</a>
+                                        <a class="nav-link" id="v-pills-home-tab" data-bs-toggle="tab" href="#v-pills-programming" role="tab" aria-selected="true">Programming</a>
                                     </li>
 
 
                                     <li class="nav-item">
-                                        <a class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="tab" href="#v-pills-Design" role="tab" aria-selected="true">Product Design</a>
+                                        <a class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="tab" href="#v-pills-framework-libaries" role="tab" aria-selected="true">Framework & Libaries</a>
                                     </li>
 
 
                                     <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-wordpress-tab" data-bs-toggle="tab" href="#v-pills-Wordpress" role="tab" aria-selected="true">Wordpress</a>
+                                        <a class="nav-link" id="v-pills-databases-tab" data-bs-toggle="tab" href="#v-pills-databases" role="tab" aria-selected="true">Database</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-settings-tabs" data-bs-toggle="tab" href="#v-pills-settings" role="tab" aria-selected="true">HTML to React</a>
+                                        <a class="nav-link" id="v-pills-settings-tabs" data-bs-toggle="tab" href="#v-pills-settings" role="tab" aria-selected="true">Web Technologies</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-laravel-tabs" data-bs-toggle="tab" href="#v-pills-laravel" role="tab" aria-selected="true">React
-                                            To Laravel</a>
+                                        <a class="nav-link" id="v-pills-laravel-tabs" data-bs-toggle="tab" href="#v-pills-laravel" role="tab" aria-selected="true">Dev Tools</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-python-tabs" data-bs-toggle="tab" href="#v-pills-python" role="tab" aria-selected="true">Python</a>
+                                        <a class="nav-link" id="v-pills-python-tabs" data-bs-toggle="tab" href="#v-pills-python" role="tab" aria-selected="true">Design & Diagram</a>
                                     </li>
 
 
@@ -1404,17 +727,19 @@
                             <div class="d-flex align-items-start">
                                 <div class="tab-content" id="v-pills-tabContent">
 
-                                    <div class="tab-pane fade" id="v-pills-Javascript" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                    <div class="tab-pane fade" id="v-pills-programming" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                         <div class="client-card">
 
                                             <!-- Start Single Brand  -->
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/icons8-javascript-180.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    <div class="client-name"><span><a href="#">javascript</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1424,140 +749,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client2.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/icons8-php-logo-180.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client3.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client4.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client5.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client2.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client5.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client3.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    <div class="client-name"><span><a href="#">PHP</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1566,17 +763,19 @@
                                         </div>
                                     </div>
 
-                                    <div class="tab-pane fade show active" id="v-pills-Design" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                    <div class="tab-pane fade show active" id="v-pills-framework-libaries" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                                         <div class="client-card">
 
                                             <!-- Start Single Brand  -->
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/laravel_logo.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    <div class="client-name"><span><a href="#">Laravel</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1586,10 +785,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client2.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/icons8-react-180.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
+                                                    <div class="client-name"><span><a href="#">React</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1599,10 +800,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client3.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/expressjs-logo.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
+                                                    <div class="client-name"><span><a href="#">Express JS</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1612,10 +815,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client4.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/logo-socket.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
+                                                    <div class="client-name"><span><a href="#">Socket.IO</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1625,10 +830,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/react-native.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    <div class="client-name"><span><a href="#">React Native</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1638,10 +845,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client5.png') }}" alt="Client-image"></a>
+                                                        <a href="https://lumen.laravel.com/">
+                                                            <img src="{{ asset('assets/icon/lumen.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
+                                                    <div class="client-name"><span><a href="#">Lumen</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1651,10 +860,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
+                                                        <a href="https://lumen.laravel.com/">
+                                                            <img src="{{ asset('assets/icon/jQuery.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
+                                                    <div class="client-name"><span><a href="#">jQuery</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1664,10 +875,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client2.png') }}" alt="Client-image"></a>
+                                                        <a href="https://lumen.laravel.com/">
+                                                            <img src="{{ asset('assets/icon/bootstrap.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
+                                                    <div class="client-name"><span><a href="#">Bootstrap</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1677,68 +890,34 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
+                                                        <a href="https://lumen.laravel.com/">
+                                                            <img src="{{ asset('assets/icon/TailwindCSS.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
+                                                    <div class="client-name"><span><a href="#">Tailwind CSS</a></span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <!-- End Single Brand  -->
 
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client5.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client3.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
 
                                         </div>
                                     </div>
 
-                                    <div class="tab-pane fade" id="v-pills-Wordpress" role="tabpanel" aria-labelledby="v-pills-wordpress-tab">
+                                    <div class="tab-pane fade" id="v-pills-databases" role="tabpanel" aria-labelledby="v-pills-databases-tab">
                                         <div class="client-card">
 
                                             <!-- Start Single Brand  -->
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/my_sql.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    <div class="client-name"><span><a href="#">MySQL</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1748,10 +927,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client2.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/mongodb.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
+                                                    <div class="client-name"><span><a href="#">Mongo DB</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1761,127 +942,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client3.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/PostgreSQL.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client4.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client5.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client2.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client5.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client3.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    <div class="client-name"><span><a href="#">Postgre SQL</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1897,153 +963,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/icons8-react-180.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client2.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client3.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client4.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client5.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client2.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client5.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client3.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    <div class="client-name"><span><a href="#">React</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2059,153 +984,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/icons8-react-180.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client2.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client3.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client4.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client5.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client2.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client5.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client3.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    <div class="client-name"><span><a href="#">React</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2221,153 +1005,12 @@
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/icons8-react-180.png') }}" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client2.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client3.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client4.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client5.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client2.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client5.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client1.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="{{ asset('assets/images/client/png/client3.png') }}" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    <div class="client-name"><span><a href="#">React</a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2384,6 +1027,219 @@
             </div>
         </div>
         <!-- End client section -->
+
+                <!-- Start Testimonia Area  -->
+                <div class="rn-testimonial-area rn-section-gap section-separator" id="testimonial">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="section-title text-left">
+                                    <span class="subtitle">What Dev-Stack Say</span>
+                                    <h2 class="title">Testimonial</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="testimonial-activation testimonial-pb mb--30">
+                                    <!-- Start Single testiminail -->
+                                    <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                        <div class="inner">
+                                            <div class="card-info">
+                                                <div class="card-thumbnail">
+                                                    <img src="{{ asset('assets/images/testimonial/final-home--1st.png') }}" alt="Testimonial-image">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="subtitle mt--10">Rainbow-Themes</span>
+                                                    <h3 class="title">Nevine Acotanza</h3>
+                                                    <span class="designation">Chief Operating Officer</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-description">
+                                                <div class="title-area">
+                                                    <div class="title-info">
+                                                        <h3 class="title">Android App Development</h3>
+                                                        <span class="date">via Upwork - Mar 4, 2015 - Aug 30, 2021</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                    </div>
+                                                </div>
+                                                <div class="seperator"></div>
+                                                <p class="discription">
+                                                    Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                                                    sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                                    hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                                    .
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Single testiminail -->
+                                    <!-- Start Single testiminail -->
+                                    <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                        <div class="inner">
+                                            <div class="card-info">
+                                                <div class="card-thumbnail">
+                                                    <img src="{{ asset('assets/images/testimonial/final-home--2nd.png') }}" alt="Testimonial-image">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="subtitle mt--10">Bound - Trolola</span>
+                                                    <h3 class="title">Jone Duone Joe</h3>
+                                                    <span class="designation">Operating Officer</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-description">
+                                                <div class="title-area">
+                                                    <div class="title-info">
+                                                        <h3 class="title">Web App Development</h3>
+                                                        <span class="date">Upwork - Mar 4, 2016 - Aug 30, 2021</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                    </div>
+                                                </div>
+                                                <div class="seperator"></div>
+                                                <p class="discription">
+                                                    Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                                                    sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                                    hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                                    .
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Single testiminail -->
+                                    <!-- Start Single testiminail -->
+                                    <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                        <div class="inner">
+                                            <div class="card-info">
+                                                <div class="card-thumbnail">
+                                                    <img src="{{ asset('assets/images/testimonial/final-home--3rd.png') }}" alt="Testimonial-image">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="subtitle mt--10">Glassfisom</span>
+                                                    <h3 class="title">Nevine Dhawan</h3>
+                                                    <span class="designation">CEO Of Officer</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-description">
+                                                <div class="title-area">
+                                                    <div class="title-info">
+                                                        <h3 class="title">Android App Design</h3>
+                                                        <span class="date">Fiver - Mar 4, 2015 - Aug 30, 2021</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                    </div>
+                                                </div>
+                                                <div class="seperator"></div>
+                                                <p class="discription">
+                                                    No more question for design. Ut tincidunt est ac dolor aliquam
+                                                    sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                                    hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                                    .
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Single testiminail -->
+
+                                    <!-- Start Single testiminail -->
+                                    <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                        <div class="inner">
+                                            <div class="card-info">
+                                                <div class="card-thumbnail">
+                                                    <img src="{{ asset('assets/images/testimonial/final-home--4th.png') }}" alt="Testimonial-image">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="subtitle mt--10">NCD - Design</span>
+                                                    <h3 class="title">Mevine Thoda</h3>
+                                                    <span class="designation">Marketing Officer</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-description">
+                                                <div class="title-area">
+                                                    <div class="title-info">
+                                                        <h3 class="title">CEO - Marketing</h3>
+                                                        <span class="date">Thoda Department - Mar 4, 2018 - Aug 30, 2021</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                    </div>
+                                                </div>
+                                                <div class="seperator"></div>
+                                                <p class="discription">
+                                                    Marcent Of Vanice and treatment. Ut tincidunt est ac dolor aliquam
+                                                    sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                                    hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                                    .
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Single testiminail -->
+
+                                    <!-- Start Single testiminail -->
+                                    <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                        <div class="inner">
+                                            <div class="card-info">
+                                                <div class="card-thumbnail">
+                                                    <img src="{{ asset('assets/images/testimonial/final-home--5th.png') }}" alt="Testimonial-image">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="subtitle mt--10">Default name</span>
+                                                    <h3 class="title">Davei Luace</h3>
+                                                    <span class="designation">Chief Operating Manager</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-description">
+                                                <div class="title-area">
+                                                    <div class="title-info">
+                                                        <h3 class="title">Android App Development</h3>
+                                                        <span class="date">via Upwork - Mar 4, 2015 - Aug 30, 2021</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                    </div>
+                                                </div>
+                                                <div class="seperator"></div>
+                                                <p class="discription">
+                                                    When managment is so important. Ut tincidunt est ac dolor aliquam
+                                                    sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                                    hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                                    .
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Single testiminail -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Testimonia Area  -->
 
         <!-- Start Contact section -->
         <div class="rn-contact-area rn-section-gap section-separator" id="contacts">
@@ -2404,21 +1260,28 @@
                                 <img src="{{ asset('assets/images/contact/contact1.png') }}" alt="contact-img">
                             </div>
                             <div class="title-area">
-                                <h4 class="title">Nevine Acotanza</h4>
-                                <span>Chief Operating Officer</span>
+                                <h4 class="title">Sabbir Mahmud</h4>
+                                <span>Software Developer</span>
                             </div>
                             <div class="description">
-                                <p>I am available for freelance work. Connect with me via and call in to my account.
-                                </p>
-                                <span class="phone">Phone: <a href="tel:01941043264">+01234567890</a></span>
-                                <span class="mail">Email: <a href="mailto:admin@example.com">admin@example.com</a></span>
+
+                                <span class="phone">Phone: <a href="tel:01941043264">+8801643534455</a></span>
+                                <span class="mail">Email: <a href="mailto:admin@example.com">sabbirmahmud4455@gmail.com</a></span>
                             </div>
                             <div class="social-area">
                                 <div class="name">FIND WITH ME</div>
                                 <div class="social-icone">
-                                    <a href="#"><i data-feather="facebook"></i></a>
-                                    <a href="#"><i data-feather="linkedin"></i></a>
-                                    <a href="#"><i data-feather="instagram"></i></a>
+                                    <a href="https://github.com/sabbirmahmud4455" target="_blank">
+                                        <img src="{{ asset('assets/icon/icons8-github-36.png') }}" alt="">
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/sabbir-mahmud/" target="_blank">
+                                        <img src="{{ asset('assets/icon/icons8-linkedin-36.png') }}" alt="">
+                                    </a>
+                                    <a href="https://www.facebook.com/sabbir.hossien.7" target="_blank">
+                                        <img src="{{ asset('assets/icon/icons8-facebook-36.png') }}" alt="">
+                                    </a>
+
+
                                 </div>
                             </div>
                         </div>
@@ -2648,12 +1511,10 @@
                     <div class="footer-area text-center">
 
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="#home">
                                 <img src="{{ asset('assets/images/logo/logo-vertical.png') }}" alt="logo">
                             </a>
                         </div>
-
-                        {{-- <p class="description mt--30">© 2022. All rights reserved by <a target="_blank" href="">Rainbow-Themes.</a></p> --}}
                     </div>
                 </div>
             </div>
@@ -2675,6 +1536,4 @@
     <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
-
-<!-- Mirrored from rainbowit.net/html/inbio/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Aug 2022 06:45:19 GMT -->
 </html>
