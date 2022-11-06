@@ -54,7 +54,7 @@
                     </nav>
                     <!-- Start Header Right  -->
                     <div class="header-right">
-                        <a class="rn-btn" target="_blank" href=""><span>BUY NOW</span></a>
+                        <a class="rn-btn" target="_blank" href=""><span>Resume</span></a>
                         <div class="hamberger-menu d-block d-xl-none">
                             <i id="menuBtn" class="feather-menu humberger-menu"></i>
                         </div>
@@ -241,12 +241,10 @@
                         <div class="rn-service">
                             <div class="inner">
                                 <div class="content">
-                                    <h4 class="title"><a href="#">Requirements Analysis</a></h4>
+                                    <h4 class="title"><span>Requirements Analysis</span></h4>
                                     <p class="description">To develope correct on right ways analysis system requirements</p>
-                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <a class="over-link" href="#"></a>
                         </div>
                     </div>
                     <!-- End SIngle Service -->
@@ -255,9 +253,8 @@
                         <div class="rn-service">
                             <div class="inner">
                                 <div class="content">
-                                    <h4 class="title"><a href="#">Software Development</a></h4>
+                                    <h4 class="title"><span>Software Development</span></h4>
                                     <p class="description">Write clean code for clean software and must be reusable and scalable</p>
-                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
                                 </div>
                             </div>
                             <a class="over-link" href="#"></a>
@@ -269,9 +266,8 @@
                         <div class="rn-service">
                             <div class="inner">
                                 <div class="content">
-                                    <h4 class="title"><a href="#">Web App Development</a></h4>
+                                    <h4 class="title"><span>Web App Development</span></h4>
                                     <p class="description">Solving thousand of peaple problem with smooth service</p>
-                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
                                 </div>
                             </div>
                             <a class="over-link" href="#"></a>
@@ -283,9 +279,8 @@
                         <div class="rn-service">
                             <div class="inner">
                                 <div class="content">
-                                    <h4 class="title"><a href="#">Database Design</a></h4>
+                                    <h4 class="title"><span>Database Design</span></h4>
                                     <p class="description">Build and Design RDMS Database Mostly used SQL</p>
-                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
                                 </div>
                             </div>
                             <a class="over-link" href="#"></a>
@@ -297,31 +292,15 @@
                         <div class="rn-service">
                             <div class="inner">
                                 <div class="content">
-                                    <h4 class="title"><a href="#">CEO Marketing</a></h4>
-                                    <p class="description">always free from repetition,
-                                        injected humour, or non-characteristic words etc.</p>
-                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
+                                    <h4 class="title"><span>System Design</span></h4>
+                                    <p class="description"> Design system such a way that integrates new features easily.</p>
                                 </div>
                             </div>
                             <a class="over-link" href="#"></a>
                         </div>
                     </div>
                     <!-- End SIngle Service -->
-                    <!-- Start Single Service -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-service">
-                            <div class="inner">
-                                <div class="content">
-                                    <h4 class="title"><a href="#">Personal Portfolio April</a></h4>
-                                    <p class="description"> It uses a dictionary of over 200 Latin words, combined with
-                                        a handful of model sentence.</p>
-                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <a class="over-link" href="#"></a>
-                        </div>
-                    </div>
-                    <!-- End SIngle Service -->
+
 
                 </div>
             </div>
@@ -341,27 +320,31 @@
                 </div>
 
                 <div class="row row--25 mt--10 mt_md--10 mt_sm--10">
+
                     <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                    <div  class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" >
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="{{ asset('assets/images/portfolio/portfolio-01.jpg') }}" alt="Personal Portfolio Images">
+                                    <a href="https://hrm.sabbirmahmud.net/" target="_blank">
+                                        <img src="{{ asset('assets/images/portfolio/hr-payroll.jpg') }}" alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
                                     <div class="category-info">
                                         <div class="category-list">
-                                            <a href="javascript:void(0)">Development</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                        600</span>
+                                            <a href="https://hrm.sabbirmahmud.net/" target="_blank">Software</a>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">The services provide for design <i
-                                        class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title"><a href="https://hrm.sabbirmahmud.net/" target="_blank">HR Management System <i
+                                        class="feather-arrow-up-right"></i></a>
+                                    </h4>
+                                    <hr class=" m-0">
+                                    <div class="asdf">
+                                        <p style="font-size: 16px; margin:3px;">Demo credential</p>
+                                        <p style="font-size: 16px; margin:3px;">Email : system.admin@mailinator.com</p>
+                                        <p style="font-size: 16px; margin:3px;">Password : 12345678</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -369,26 +352,31 @@
                     <!-- End Single Portfolio -->
 
                     <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                    <div  class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" >
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="{{ asset('assets/images/portfolio/portfolio-02.jpg') }}" alt="Personal Portfolio Images">
+                                    <a href="https://inventory.sabbirmahmud.net/" target="_blank">
+                                        <img src="{{ asset('assets/images/portfolio/inventory.jpg') }}" alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
                                     <div class="category-info">
                                         <div class="category-list">
-                                            <a href="javascript:void(0)">Application</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                        750</span>
+                                            <a href="https://inventory.sabbirmahmud.net/" target="_blank">Software</a>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Mobile app landing design & app
-                                            maintain<i class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title">
+                                        <a href="https://inventory.sabbirmahmud.net/" target="_blank">
+                                            Inventory Managment System <i class="feather-arrow-up-right"></i>
+                                        </a>
+                                    </h4>
+                                    <hr class=" m-0">
+                                    <div class="asdf">
+                                        <p style="font-size: 16px; margin:3px;">Demo credential</p>
+                                        <p style="font-size: 16px; margin:3px;">Email : system.admin@mailinator.com</p>
+                                        <p style="font-size: 16px; margin:3px;">Password : 12345678</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -396,26 +384,29 @@
                     <!-- End Single Portfolio -->
 
                     <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                    <div  class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" >
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="{{ asset('assets/images/portfolio/portfolio-03.jpg') }}" alt="Personal Portfolio Images">
+                                    <a href="https://tf.sabbirmahmud.net/" target="_blank">
+                                        <img src="{{ asset('assets/images/portfolio/buying_house.jpg') }}" alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
                                     <div class="category-info">
                                         <div class="category-list">
-                                            <a href="javascript:void(0)">Photoshop</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                        630</span>
+                                            <a href="https://tf.sabbirmahmud.net/" target="_blank">Software</a>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Logo design creativity & Application
-                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title"><a href="https://tf.sabbirmahmud.net/" target="_blank">Textile & Fashion Management System <i
+                                        class="feather-arrow-up-right"></i></a>
+                                    </h4>
+                                    <hr class=" m-0">
+                                    <div class="asdf">
+                                        <p style="font-size: 16px; margin:3px;">Demo credential</p>
+                                        <p style="font-size: 16px; margin:3px;">Email : system.admin@mailinator.com</p>
+                                        <p style="font-size: 16px; margin:3px;">Password : 12345678</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -423,26 +414,29 @@
                     <!-- End Single Portfolio -->
 
                     <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                    <div  class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" >
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="{{ asset('assets/images/portfolio/portfolio-04.jpg') }}" alt="Personal Portfolio Images">
+                                    <a href="https://pms.sabbirmahmud.net/" target="_blank">
+                                        <img src="{{ asset('assets/images/portfolio/pms.png') }}" alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
                                     <div class="category-info">
                                         <div class="category-list">
-                                            <a href="javascript:void(0)">Figma</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                        360</span>
+                                            <a href="https://pms.sabbirmahmud.net/" target="_blank">Software</a>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Mobile app landing design &
-                                            Services<i class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title"><a href="https://pms.sabbirmahmud.net/" target="_blank">Project Management System <i
+                                        class="feather-arrow-up-right"></i></a>
+                                    </h4>
+                                    <hr class=" m-0">
+                                    <div class="asdf">
+                                        <p style="font-size: 16px; margin:3px;">Demo credential</p>
+                                        <p style="font-size: 16px; margin:3px;">Email : system.admin@mailinator.com</p>
+                                        <p style="font-size: 16px; margin:3px;">Password : 12345678</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -450,58 +444,61 @@
                     <!-- End Single Portfolio -->
 
                     <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                    <div  class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" >
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="{{ asset('assets/images/portfolio/portfolio-05.jpg') }}" alt="Personal Portfolio Images">
+                                    <a href="https://tms.sabbirmahmud.net/" target="_blank">
+                                        <img src="{{ asset('assets/images/portfolio/tms.png') }}" alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
                                     <div class="category-info">
                                         <div class="category-list">
-                                            <a href="javascript:void(0)">Web Design</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                        280</span>
+                                            <a href="https://tms.sabbirmahmud.net/" target="_blank">Software</a>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Design for tecnology & services<i
-                                        class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title"><a href="https://tms.sabbirmahmud.net/" target="_blank">Tailors Management System
+                                        System <i
+                                        class="feather-arrow-up-right"></i></a>
+                                    </h4>
+                                    <hr class=" m-0">
+                                    <div class="asdf">
+                                        <p style="font-size: 16px; margin:3px;">Demo credential</p>
+                                        <p style="font-size: 16px; margin:3px;">Email : system.admin@mailinator.com</p>
+                                        <p style="font-size: 16px; margin:3px;">Password : 12345678</p>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                     <!-- End Single Portfolio -->
 
                     <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                    <div  class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" >
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="{{ asset('assets/images/portfolio/portfolio-06.jpg') }}" alt="Personal Portfolio Images">
+                                    <a href="https://instantsalaries.com/" target="_blank">
+                                        <img src="{{ asset('assets/images/portfolio/instant.jpg') }}" alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
                                     <div class="category-info">
                                         <div class="category-list">
-                                            <a href="javascript:void(0)">Web Design</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                        690</span>
+                                            <a href="https://instantsalaries.com/" target="_blank">Software</a>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">App for tecnology & services<i
-                                        class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title">
+                                        <a href="https://instantsalaries.com/" target="_blank">Instant Salaries <i class="feather-arrow-up-right"></i> </a>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- End Single Portfolio -->
+
                 </div>
             </div>
         </div>
@@ -512,7 +509,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title text-center">
-                            <span class="subtitle">7+ Years of Experience</span>
+                            <span class="subtitle">Around 3 Years of Experience</span>
                             <h2 class="title">Where I've Worked</h2>
                         </div>
                     </div>
@@ -520,150 +517,74 @@
                 <div class="row mt--45">
                     <div class="personal-experience-inner mt--40">
                         <div class="row">
-                            <!-- Start Skill List Area  -->
-                            <div class="col-lg-6 col-md-12 col-12">
+
+                            <!-- Start Skill List Area 2nd  -->
+                            <div class=" col-md-6 col-12 mt_md--60 mt_sm--60">
                                 <div class="content">
-                                    <span class="subtitle">2007 - 2010</span>
-                                    <h4 class="maintitle">Company Experience</h4>
                                     <div class="experience-list">
-
                                         <!-- Start Single List  -->
-                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="experience-single-list">
+                                        <div class="experience-single-list pb-0">
                                             <div class="inner">
-                                                <div class="heading">
+                                                <div class="heading border-0">
                                                     <div class="title">
-                                                        <h4>Personal Portfolio April Fools</h4>
-                                                        <span>University of DVI (1997 - 2001)</span>
-                                                    </div>
-                                                    <div class="date-of-time">
-                                                        <span>4.30/5</span>
+                                                        <h4>RP AI Solutions</h4>
+                                                        <p class=" text-danger my-1">Software Developer</p>
+                                                        <span>November,2021 - Now</span>
                                                     </div>
                                                 </div>
-                                                <p class="description">The education should be very
-                                                    interactual. Ut tincidunt est ac dolor aliquam sodales.
-                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                    mauris hendrerit ante.</p>
                                             </div>
                                         </div>
                                         <!-- End Single List  -->
-
-                                        <!-- Start Single List  -->
-                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="experience-single-list">
-                                            <div class="inner">
-                                                <div class="heading">
-                                                    <div class="title">
-                                                        <h4> Examples Of Personal Portfolio</h4>
-                                                        <span>College of Studies (2000 - 2002)</span>
-                                                    </div>
-                                                    <div class="date-of-time">
-                                                        <span>4.50/5</span>
-                                                    </div>
-                                                </div>
-                                                <p class="description">Maecenas finibus nec sem ut
-                                                    imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                    mauris hendrerit ante.</p>
-                                            </div>
-                                        </div>
-                                        <!-- End Single List  -->
-
-                                        <!-- Start Single List  -->
-                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true" class="experience-single-list">
-                                            <div class="inner">
-                                                <div class="heading">
-                                                    <div class="title">
-                                                        <h4>Tips For Personal Portfolio</h4>
-                                                        <span>University of Studies (1997 - 2001)</span>
-                                                    </div>
-                                                    <div class="date-of-time">
-                                                        <span>4.80/5</span>
-                                                    </div>
-                                                </div>
-                                                <p class="description"> If you are going to use a passage.
-                                                    Ut tincidunt est ac dolor aliquam sodales.
-                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                    mauris hendrerit ante.</p>
-                                            </div>
-                                        </div>
-                                        <!-- End Single List  -->
-
                                     </div>
                                 </div>
                             </div>
                             <!-- End Skill List Area  -->
 
                             <!-- Start Skill List Area 2nd  -->
-                            <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
+                            <div class=" col-md-6 col-12 mt_md--60 mt_sm--60">
                                 <div class="content">
-                                    <span class="subtitle">2007 - 2010</span>
-                                    <h4 class="maintitle">Job Experience</h4>
                                     <div class="experience-list">
-
                                         <!-- Start Single List  -->
-                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="experience-single-list">
+                                        <div class="experience-single-list pb-0">
                                             <div class="inner">
-                                                <div class="heading">
+                                                <div class="heading border-0">
                                                     <div class="title">
-                                                        <h4>Diploma in Web Development</h4>
-                                                        <span>BSE In CSE (2004 - 2008)</span>
-                                                    </div>
-                                                    <div class="date-of-time">
-                                                        <span>4.70/5</span>
+                                                        <h4>Alesha Solutions Ltd</h4>
+                                                        <p class=" text-danger my-1">Junior Software Developer</p>
+                                                        <span>April,2021 - October,2021</span>
                                                     </div>
                                                 </div>
-                                                <p class="description">Contrary to popular belief. Ut
-                                                    tincidunt est ac dolor aliquam sodales.
-                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                    mauris hendrerit ante.</p>
                                             </div>
                                         </div>
                                         <!-- End Single List  -->
-
-                                        <!-- Start Single List  -->
-                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true" class="experience-single-list">
-                                            <div class="inner">
-                                                <div class="heading">
-                                                    <div class="title">
-                                                        <h4>The Personal Portfolio Mystery</h4>
-                                                        <span>Job at Rainbow-Themes (2008 - 2016)</span>
-                                                    </div>
-                                                    <div class="date-of-time">
-                                                        <span>4.95/5</span>
-                                                    </div>
-                                                </div>
-                                                <p class="description">Generate Lorem Ipsum which looks. Ut
-                                                    tincidunt est ac dolor aliquam sodales.
-                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                    mauris hendrerit ante.</p>
-                                            </div>
-                                        </div>
-                                        <!-- End Single List  -->
-
-                                        <!-- Start Single List  -->
-                                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="900" data-aos-once="true" class="experience-single-list">
-                                            <div class="inner">
-                                                <div class="heading">
-                                                    <div class="title">
-                                                        <h4>Diploma in Computer Science</h4>
-                                                        <span>Works at Plugin Development (2016 -
-                                                    2020)</span>
-                                                    </div>
-                                                    <div class="date-of-time">
-                                                        <span>5.00/5</span>
-                                                    </div>
-                                                </div>
-                                                <p class="description">Maecenas finibus nec sem ut
-                                                    imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                    Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                    mauris hendrerit ante.</p>
-                                            </div>
-                                        </div>
-                                        <!-- End Single List  -->
-
                                     </div>
                                 </div>
                             </div>
                             <!-- End Skill List Area  -->
+
+                            <!-- Start Skill List Area 2nd  -->
+                            <div class=" col-md-6 col-12 mt_md--60 mt_sm--60">
+                                <div class="content">
+                                    <div class="experience-list">
+                                        <!-- Start Single List  -->
+                                        <div class="experience-single-list pb-0">
+                                            <div class="inner">
+                                                <div class="heading border-0">
+                                                    <div class="title">
+                                                        <h4>BD Zone</h4>
+                                                        <p class=" text-danger my-1">Junior Developer</p>
+                                                        <span>August,2020 - March,2021</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single List  -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Skill List Area  -->
+
+
                         </div>
                     </div>
                 </div>
@@ -691,29 +612,19 @@
                                 <ul class="nav tab-navigation-button flex-column nav-pills me-3" id="v-pills-tab" role="tablist">
 
                                     <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-home-tab" data-bs-toggle="tab" href="#v-pills-programming" role="tab" aria-selected="true">Programming</a>
-                                    </li>
-
-
-                                    <li class="nav-item">
                                         <a class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="tab" href="#v-pills-framework-libaries" role="tab" aria-selected="true">Framework & Libaries</a>
                                     </li>
 
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="v-pills-home-tab" data-bs-toggle="tab" href="#v-pills-programming" role="tab" aria-selected="true">Programming</a>
+                                    </li>
 
                                     <li class="nav-item">
                                         <a class="nav-link" id="v-pills-databases-tab" data-bs-toggle="tab" href="#v-pills-databases" role="tab" aria-selected="true">Database</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-settings-tabs" data-bs-toggle="tab" href="#v-pills-settings" role="tab" aria-selected="true">Web Technologies</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-laravel-tabs" data-bs-toggle="tab" href="#v-pills-laravel" role="tab" aria-selected="true">Dev Tools</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-python-tabs" data-bs-toggle="tab" href="#v-pills-python" role="tab" aria-selected="true">Design & Diagram</a>
+                                        <a class="nav-link" id="v-pills-technologies-tools-tabs" data-bs-toggle="tab" href="#v-pills-technologies-tools" role="tab" aria-selected="true">Technologies & Tools</a>
                                     </li>
 
 
@@ -956,7 +867,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tabs">
+                                    <div class="tab-pane fade" id="v-pills-technologies-tools" role="tabpanel" aria-labelledby="v-pills-technologies-tools-tabs">
                                         <div class="client-card">
 
                                             <!-- Start Single Brand  -->
@@ -964,60 +875,97 @@
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
                                                         <a href="#">
-                                                            <img src="{{ asset('assets/icon/icons8-react-180.png') }}" alt="">
+                                                            <img src="{{ asset('assets/icon/icons8-html-5-180.png') }}" alt="">
                                                         </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">React</a></span>
+                                                    <div class="client-name"><span><a href="#">HTML</a></span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <!-- End Single Brand  -->
-
-                                        </div>
-                                    </div>
-
-                                    <div class="tab-pane fade" id="v-pills-laravel" role="tabpanel" aria-labelledby="v-pills-laravel-tabs">
-                                        <div class="client-card">
 
                                             <!-- Start Single Brand  -->
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
                                                         <a href="#">
-                                                            <img src="{{ asset('assets/icon/icons8-react-180.png') }}" alt="">
+                                                            <img src="{{ asset('assets/icon/icons8-css3-180.png') }}" alt="">
                                                         </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">React</a></span>
+                                                    <div class="client-name"><span><a href="#">CSS</a></span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <!-- End Single Brand  -->
-
-                                        </div>
-                                    </div>
-
-                                    <div class="tab-pane fade" id="v-pills-python" role="tabpanel" aria-labelledby="v-pills-python-tabs">
-                                        <div class="client-card">
 
                                             <!-- Start Single Brand  -->
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
                                                         <a href="#">
-                                                            <img src="{{ asset('assets/icon/icons8-react-180.png') }}" alt="">
+                                                            <img src="{{ asset('assets/icon/JSON-API.png') }}" alt="">
                                                         </a>
                                                     </div>
                                                     <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">React</a></span>
+                                                    <div class="client-name"><span><a href="#">JSON</a></span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <!-- End Single Brand  -->
 
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/icons8-git-180.png') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Git</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/icons8-github-180.png') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Github</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <img src="{{ asset('assets/icon/icons8-gitlab-180.png') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Gitlab</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+
+
                                         </div>
                                     </div>
+
+
 
                                 </div>
                             </div>
@@ -1028,218 +976,218 @@
         </div>
         <!-- End client section -->
 
-                <!-- Start Testimonia Area  -->
-                <div class="rn-testimonial-area rn-section-gap section-separator" id="testimonial">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="section-title text-left">
-                                    <span class="subtitle">What Dev-Stack Say</span>
-                                    <h2 class="title">Testimonial</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="testimonial-activation testimonial-pb mb--30">
-                                    <!-- Start Single testiminail -->
-                                    <div class="testimonial mt--50 mt_md--40 mt_sm--40">
-                                        <div class="inner">
-                                            <div class="card-info">
-                                                <div class="card-thumbnail">
-                                                    <img src="{{ asset('assets/images/testimonial/final-home--1st.png') }}" alt="Testimonial-image">
-                                                </div>
-                                                <div class="card-content">
-                                                    <span class="subtitle mt--10">Rainbow-Themes</span>
-                                                    <h3 class="title">Nevine Acotanza</h3>
-                                                    <span class="designation">Chief Operating Officer</span>
-                                                </div>
-                                            </div>
-                                            <div class="card-description">
-                                                <div class="title-area">
-                                                    <div class="title-info">
-                                                        <h3 class="title">Android App Development</h3>
-                                                        <span class="date">via Upwork - Mar 4, 2015 - Aug 30, 2021</span>
-                                                    </div>
-                                                    <div class="rating">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                    </div>
-                                                </div>
-                                                <div class="seperator"></div>
-                                                <p class="discription">
-                                                    Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
-                                                    sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                                    hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
-                                                    .
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Single testiminail -->
-                                    <!-- Start Single testiminail -->
-                                    <div class="testimonial mt--50 mt_md--40 mt_sm--40">
-                                        <div class="inner">
-                                            <div class="card-info">
-                                                <div class="card-thumbnail">
-                                                    <img src="{{ asset('assets/images/testimonial/final-home--2nd.png') }}" alt="Testimonial-image">
-                                                </div>
-                                                <div class="card-content">
-                                                    <span class="subtitle mt--10">Bound - Trolola</span>
-                                                    <h3 class="title">Jone Duone Joe</h3>
-                                                    <span class="designation">Operating Officer</span>
-                                                </div>
-                                            </div>
-                                            <div class="card-description">
-                                                <div class="title-area">
-                                                    <div class="title-info">
-                                                        <h3 class="title">Web App Development</h3>
-                                                        <span class="date">Upwork - Mar 4, 2016 - Aug 30, 2021</span>
-                                                    </div>
-                                                    <div class="rating">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                    </div>
-                                                </div>
-                                                <div class="seperator"></div>
-                                                <p class="discription">
-                                                    Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
-                                                    sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                                    hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
-                                                    .
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Single testiminail -->
-                                    <!-- Start Single testiminail -->
-                                    <div class="testimonial mt--50 mt_md--40 mt_sm--40">
-                                        <div class="inner">
-                                            <div class="card-info">
-                                                <div class="card-thumbnail">
-                                                    <img src="{{ asset('assets/images/testimonial/final-home--3rd.png') }}" alt="Testimonial-image">
-                                                </div>
-                                                <div class="card-content">
-                                                    <span class="subtitle mt--10">Glassfisom</span>
-                                                    <h3 class="title">Nevine Dhawan</h3>
-                                                    <span class="designation">CEO Of Officer</span>
-                                                </div>
-                                            </div>
-                                            <div class="card-description">
-                                                <div class="title-area">
-                                                    <div class="title-info">
-                                                        <h3 class="title">Android App Design</h3>
-                                                        <span class="date">Fiver - Mar 4, 2015 - Aug 30, 2021</span>
-                                                    </div>
-                                                    <div class="rating">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                    </div>
-                                                </div>
-                                                <div class="seperator"></div>
-                                                <p class="discription">
-                                                    No more question for design. Ut tincidunt est ac dolor aliquam
-                                                    sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                                    hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
-                                                    .
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Single testiminail -->
-
-                                    <!-- Start Single testiminail -->
-                                    <div class="testimonial mt--50 mt_md--40 mt_sm--40">
-                                        <div class="inner">
-                                            <div class="card-info">
-                                                <div class="card-thumbnail">
-                                                    <img src="{{ asset('assets/images/testimonial/final-home--4th.png') }}" alt="Testimonial-image">
-                                                </div>
-                                                <div class="card-content">
-                                                    <span class="subtitle mt--10">NCD - Design</span>
-                                                    <h3 class="title">Mevine Thoda</h3>
-                                                    <span class="designation">Marketing Officer</span>
-                                                </div>
-                                            </div>
-                                            <div class="card-description">
-                                                <div class="title-area">
-                                                    <div class="title-info">
-                                                        <h3 class="title">CEO - Marketing</h3>
-                                                        <span class="date">Thoda Department - Mar 4, 2018 - Aug 30, 2021</span>
-                                                    </div>
-                                                    <div class="rating">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                    </div>
-                                                </div>
-                                                <div class="seperator"></div>
-                                                <p class="discription">
-                                                    Marcent Of Vanice and treatment. Ut tincidunt est ac dolor aliquam
-                                                    sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                                    hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
-                                                    .
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Single testiminail -->
-
-                                    <!-- Start Single testiminail -->
-                                    <div class="testimonial mt--50 mt_md--40 mt_sm--40">
-                                        <div class="inner">
-                                            <div class="card-info">
-                                                <div class="card-thumbnail">
-                                                    <img src="{{ asset('assets/images/testimonial/final-home--5th.png') }}" alt="Testimonial-image">
-                                                </div>
-                                                <div class="card-content">
-                                                    <span class="subtitle mt--10">Default name</span>
-                                                    <h3 class="title">Davei Luace</h3>
-                                                    <span class="designation">Chief Operating Manager</span>
-                                                </div>
-                                            </div>
-                                            <div class="card-description">
-                                                <div class="title-area">
-                                                    <div class="title-info">
-                                                        <h3 class="title">Android App Development</h3>
-                                                        <span class="date">via Upwork - Mar 4, 2015 - Aug 30, 2021</span>
-                                                    </div>
-                                                    <div class="rating">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                        <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
-                                                    </div>
-                                                </div>
-                                                <div class="seperator"></div>
-                                                <p class="discription">
-                                                    When managment is so important. Ut tincidunt est ac dolor aliquam
-                                                    sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                                    hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
-                                                    .
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Single testiminail -->
-                                </div>
-                            </div>
+        {{-- <!-- Start Testimonia Area  -->
+        <div class="rn-testimonial-area rn-section-gap section-separator" id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-left">
+                            <span class="subtitle">What Dev-Stack Say</span>
+                            <h2 class="title">Testimonial</h2>
                         </div>
                     </div>
                 </div>
-                <!-- End Testimonia Area  -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="testimonial-activation testimonial-pb mb--30">
+                            <!-- Start Single testiminail -->
+                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                <div class="inner">
+                                    <div class="card-info">
+                                        <div class="card-thumbnail">
+                                            <img src="{{ asset('assets/images/testimonial/final-home--1st.png') }}" alt="Testimonial-image">
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="subtitle mt--10">Rainbow-Themes</span>
+                                            <h3 class="title">Nevine Acotanza</h3>
+                                            <span class="designation">Chief Operating Officer</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-description">
+                                        <div class="title-area">
+                                            <div class="title-info">
+                                                <h3 class="title">Android App Development</h3>
+                                                <span class="date">via Upwork - Mar 4, 2015 - Aug 30, 2021</span>
+                                            </div>
+                                            <div class="rating">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                            </div>
+                                        </div>
+                                        <div class="seperator"></div>
+                                        <p class="discription">
+                                            Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                            .
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single testiminail -->
+                            <!-- Start Single testiminail -->
+                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                <div class="inner">
+                                    <div class="card-info">
+                                        <div class="card-thumbnail">
+                                            <img src="{{ asset('assets/images/testimonial/final-home--2nd.png') }}" alt="Testimonial-image">
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="subtitle mt--10">Bound - Trolola</span>
+                                            <h3 class="title">Jone Duone Joe</h3>
+                                            <span class="designation">Operating Officer</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-description">
+                                        <div class="title-area">
+                                            <div class="title-info">
+                                                <h3 class="title">Web App Development</h3>
+                                                <span class="date">Upwork - Mar 4, 2016 - Aug 30, 2021</span>
+                                            </div>
+                                            <div class="rating">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                            </div>
+                                        </div>
+                                        <div class="seperator"></div>
+                                        <p class="discription">
+                                            Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                            .
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single testiminail -->
+                            <!-- Start Single testiminail -->
+                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                <div class="inner">
+                                    <div class="card-info">
+                                        <div class="card-thumbnail">
+                                            <img src="{{ asset('assets/images/testimonial/final-home--3rd.png') }}" alt="Testimonial-image">
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="subtitle mt--10">Glassfisom</span>
+                                            <h3 class="title">Nevine Dhawan</h3>
+                                            <span class="designation">CEO Of Officer</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-description">
+                                        <div class="title-area">
+                                            <div class="title-info">
+                                                <h3 class="title">Android App Design</h3>
+                                                <span class="date">Fiver - Mar 4, 2015 - Aug 30, 2021</span>
+                                            </div>
+                                            <div class="rating">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                            </div>
+                                        </div>
+                                        <div class="seperator"></div>
+                                        <p class="discription">
+                                            No more question for design. Ut tincidunt est ac dolor aliquam
+                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                            .
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single testiminail -->
+
+                            <!-- Start Single testiminail -->
+                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                <div class="inner">
+                                    <div class="card-info">
+                                        <div class="card-thumbnail">
+                                            <img src="{{ asset('assets/images/testimonial/final-home--4th.png') }}" alt="Testimonial-image">
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="subtitle mt--10">NCD - Design</span>
+                                            <h3 class="title">Mevine Thoda</h3>
+                                            <span class="designation">Marketing Officer</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-description">
+                                        <div class="title-area">
+                                            <div class="title-info">
+                                                <h3 class="title">CEO - Marketing</h3>
+                                                <span class="date">Thoda Department - Mar 4, 2018 - Aug 30, 2021</span>
+                                            </div>
+                                            <div class="rating">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                            </div>
+                                        </div>
+                                        <div class="seperator"></div>
+                                        <p class="discription">
+                                            Marcent Of Vanice and treatment. Ut tincidunt est ac dolor aliquam
+                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                            .
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single testiminail -->
+
+                            <!-- Start Single testiminail -->
+                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                <div class="inner">
+                                    <div class="card-info">
+                                        <div class="card-thumbnail">
+                                            <img src="{{ asset('assets/images/testimonial/final-home--5th.png') }}" alt="Testimonial-image">
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="subtitle mt--10">Default name</span>
+                                            <h3 class="title">Davei Luace</h3>
+                                            <span class="designation">Chief Operating Manager</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-description">
+                                        <div class="title-area">
+                                            <div class="title-info">
+                                                <h3 class="title">Android App Development</h3>
+                                                <span class="date">via Upwork - Mar 4, 2015 - Aug 30, 2021</span>
+                                            </div>
+                                            <div class="rating">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                                <img src="{{ asset('assets/images/icons/rating.png') }}" alt="rating-image">
+                                            </div>
+                                        </div>
+                                        <div class="seperator"></div>
+                                        <p class="discription">
+                                            When managment is so important. Ut tincidunt est ac dolor aliquam
+                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                            .
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single testiminail -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Testimonia Area  --> --}}
 
         <!-- Start Contact section -->
         <div class="rn-contact-area rn-section-gap section-separator" id="contacts">
@@ -1389,110 +1337,7 @@
             </div>
         </div>
         <!-- End Modal Portfolio area -->
-        <!-- Modal Blog Body area Start -->
-        <div class="modal fade" id="exampleModalCenters" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-news" role="document">
-                <div class="modal-content">
 
-                    <div class="modal-header">
-                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"><i data-feather="x"></i></span>
-                        </button>
-                    </div>
-
-                    <!-- End of .modal-header -->
-
-                    <div class="modal-body">
-                        <img src="{{ asset('assets/images/blog/blog-big-01.jpg') }}" alt="news modal" class="img-fluid modal-feat-img">
-                        <div class="news-details">
-                            <span class="date">2 May, 2021</span>
-                            <h2 class="title">Digital Marketo to Their New Office.</h2>
-                            <p>Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
-                                facer
-                                possim assum.
-                                Typi non
-                                habent claritatem insitam; est usus legentis in iis qui facit eorum
-                                claritatem.
-                                Investigationes
-                                demonstraverunt
-                                lectores legere me lius quod ii legunt saepius. Claritas est etiam processus
-                                dynamicus, qui
-                                sequitur
-                                mutationem consuetudium lectorum.</p>
-                            <h4>Nobis eleifend option conguenes.</h4>
-                            <p>Mauris tempor, orci id pellentesque convallis, massa mi congue eros, sed
-                                posuere
-                                massa nunc quis
-                                dui.
-                                Integer ornare varius mi, in vehicula orci scelerisque sed. Fusce a massa
-                                nisi.
-                                Curabitur sit
-                                amet
-                                suscipit nisl. Sed eget nisl laoreet, suscipit enim nec, viverra eros. Nunc
-                                imperdiet risus
-                                leo,
-                                in rutrum erat dignissim id.</p>
-                            <p>Ut rhoncus vestibulum facilisis. Duis et lorem vitae ligula cursus venenatis.
-                                Class aptent
-                                taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae
-                                nisi
-                                tortor. Morbi
-                                leo
-                                nulla, posuere vel lectus a, egestas posuere lacus. Fusce eleifend hendrerit
-                                bibendum. Morbi
-                                nec
-                                efficitur ex.</p>
-                            <h4>Mauris tempor, orci id pellentesque.</h4>
-                            <p>Nulla non ligula vel nisi blandit egestas vel eget leo. Praesent fringilla
-                                dapibus dignissim.
-                                Pellentesque
-                                quis quam enim. Vestibulum ultrices, leo id suscipit efficitur, odio lorem
-                                rhoncus dolor, a
-                                facilisis
-                                neque mi ut ex. Quisque tempor urna a nisi pretium, a pretium massa
-                                tristique.
-                                Nullam in
-                                aliquam
-                                diam. Maecenas at nibh gravida, ornare eros non, commodo ligula. Sed
-                                efficitur
-                                sollicitudin
-                                auctor.
-                                Quisque nec imperdiet purus, in ornare odio. Quisque odio felis, vestibulum
-                                et.</p>
-                        </div>
-
-                        <!-- Comment Section Area Start -->
-                        <div class="comment-inner">
-                            <h3 class="title mb--40 mt--50">Leave a Reply</h3>
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-12">
-                                        <div class="rnform-group"><input type="text" placeholder="Name">
-                                        </div>
-                                        <div class="rnform-group"><input type="email" placeholder="Email">
-                                        </div>
-                                        <div class="rnform-group"><input type="text" placeholder="Website">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-12">
-                                        <div class="rnform-group">
-                                            <textarea placeholder="Comment"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <a class="rn-btn" href="#"><span>SUBMIT NOW</span></a>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <!-- Comment Section End -->
-                    </div>
-                    <!-- End of .modal-body -->
-                </div>
-            </div>
-        </div>
-        <!-- End Modal Blog area -->
         <!-- Back to  top Start -->
         <div class="backto-top">
             <div>
