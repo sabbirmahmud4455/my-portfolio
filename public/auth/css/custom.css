@@ -1,0 +1,9 @@
+.form-errors{
+    color: red !important;
+    left: 15px;
+    top: 85%;
+}
+
+.has-error .form-control{
+    border: 1px solid red;
+}
