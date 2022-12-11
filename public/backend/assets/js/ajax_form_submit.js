@@ -67,7 +67,7 @@ $(document).ready(function () {
                 $.each(data.errors, (key, value) => {
                     swal("", `${value}`, "warning");
                     $("[name^=" + key + "]").parent().addClass('has-error')
-                    $("[name^=" + key + "]").parent().append('<small class="danger text-muted form-errors">' + value[0] + '</small>');
+                    $("[name^=" + key + "]").parent().append('<small class="text-danger form-errors">' + value[0] + '</small>');
                 })
 
                 console.clear()

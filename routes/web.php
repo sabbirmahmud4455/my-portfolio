@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::post('/sent-message', [HomeController::class, 'sent_message'])->name('sent_message');
 
 //live server command route start
 Route::get('/clear', function(){

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home Default || Inbio - Personal Portfolio Bootstrap-5 Template</title>
+    <title>Sabbir Mahmud</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -43,6 +43,9 @@
     <script src="{{ asset('frontend/assets/js/vendor/jquery-one-page-nav.js') }}"></script>
     <!-- main JS -->
     <script src="{{ asset('frontend/assets/js/main.js') }}"></script>
+
+    @yield('frontend_script')
+
 </body>
 
 </html>

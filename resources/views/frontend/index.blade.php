@@ -15,7 +15,6 @@
                         <button class="close-menu-activation close"><i data-feather="x"></i></button>
                     </div>
                 </div>
-                <p class="discription">Inbio is a personal portfolio template. You can customize all.</p>
             </div>
             <div class="content">
                 <ul class="primary-menu nav nav-pills onepagenav">
@@ -1166,26 +1165,28 @@
                         <div class="contact-form-wrapper">
                             <div class="introduce">
 
-                                <form class="rnt-contact-form rwt-dynamic-form row" id="contact-form" method="POST" action="https://rainbowit.net/html/inbio/mail.php">
+                                <form id="message_form" class=" rnt-contact-form row" id="contact-form" method="POST" action="{{ route('sent_message') }}">
+
+                                    @csrf
 
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="contact-name">Your Name</label>
-                                            <input class="form-control form-control-lg" name="contact-name" id="contact-name" type="text">
+                                            <input class="form-control form-control-lg" name="name" id="contact-name" type="text">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="contact-phone">Phone Number</label>
-                                            <input class="form-control" name="contact-phone" id="contact-phone" type="text">
+                                            <input class="form-control" name="contact" id="contact-phone" type="text">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label for="contact-email">Email</label>
-                                            <input class="form-control form-control-sm" id="contact-email" name="contact-email" type="email">
+                                            <input class="form-control form-control-sm" id="contact-email" name="email" type="email">
                                         </div>
                                     </div>
 
@@ -1199,16 +1200,19 @@
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label for="contact-message">Your Message</label>
-                                            <textarea name="contact-message" id="contact-message" cols="30" rows="10"></textarea>
+                                            <textarea name="message" id="contact-message" cols="30" rows="10"></textarea>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12">
-                                        <button name="submit" type="submit" id="submit" class="rn-btn">
+                                        <button type="submit" id="submit" class="rn-btn">
                                             <span>SEND MESSAGE</span>
                                             <i data-feather="arrow-right"></i>
+
                                         </button>
                                     </div>
+
+
                                 </form>
                             </div>
                         </div>
@@ -1277,5 +1281,70 @@
 
     </main>
 
+
+@endsection
+
+@section('frontend_script')
+    {{-- <script src="{{ asset('backend/assets/js/ajax_form_submit.js') }}"></script> --}}
+
+
+
+<!--begin::Custom Javascript(used for this page only)-->
+<script src="{{ asset('backend/assets/js/custom-script.min.js') }}"></script>
+<!--end::Custom Javascript-->
+
+<!--DataTable-->
+<script src="{{ asset('backend/assets/js/datatable/jquery.dataTables.min.js') }}"></script>
+<!--DataTable-->
+
+<!--start::ajax form submit-->
+{{-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> --}}
+<script src="{{ asset('backend/assets/js/ajax_form_submit.js') }}"></script>
+<!--end::ajax form submit-->
+
+<script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+<script src="{{ asset('backend/js/ckeditor.js') }}"></script>
+<script>
+    CKEDITOR.replace( 'description' );
+</script>
+
+<script>
+
+    $(document).on('submit','#message_form', function(e){
+        e.preventDefault()
+
+        let $this = $(this);
+        let formData = new FormData(this);
+
+        $this.find(".has-danger").removeClass('has-error');
+        $this.find(".form-errors").remove();
+
+        $.ajax({
+            type: $this.attr('method'),
+            url: $this.attr('action'),
+            data: formData,
+            contentType: false,
+            processData: false,
+            cache: false,
+            success: function (response) {
+
+                if (response.success) {
+                    $("#message_form .rn-btn").css("color", "#198754");
+                }
+
+            },
+            error: function (response) {
+
+                let data = JSON.parse(response.responseText);
+                $.each(data.errors, (key, value) => {
+                    $("[name^=" + key + "]").parent().addClass('has-error')
+                    $("[name^=" + key + "]").parent().append('<small class="text-danger form-errors">' + value[0] + '</small>');
+                })
+            }
+        })
+    })
+
+
+</script>
 
 @endsection
