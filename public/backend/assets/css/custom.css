@@ -1,0 +1,23 @@
+/*.select2-container .select2-selection--single .select2-selection__rendered {
+    !*margin-top: -15px!important;*!
+}
+.select2-container--default .select2-selection--single {
+    padding: 17px!important;
+    border-radius: 0!important;
+}*/
+
+
+
+select:focus{
+    border: 1px solid #000!important;;
+}
+.form-errors{
+    top: 100%;
+    font-weight: bold;
+    color: red!important;
+    font-size: 11px;
+    left: 10px;
+}
+.has-error .form-control{
+    border: 1px solid red;
+}
